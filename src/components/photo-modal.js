@@ -29,9 +29,20 @@ export default function PhotoModal({ photo, onClose, onPrev, onNext }) {
           {/* TODO: gray background for info box (maybe)
             * TODO: add location and date
             * TODO: fix font size */}
-          <div className="py-5 self-start">
+          <div className="p-5 self-start bg-gray-200">
             <h2 className="text-[#4a638c] font-semibold text-xl">{photo.caption}</h2>
-            <p className="text-gray-600 text-lg ">{photo.cameraSettings}</p>
+            <div className="py-5">
+              <p className="text-gray-600 text-lg ">{photo.date}</p>
+              <p className="text-gray-600 text-lg ">{photo.location}</p>
+            </div>
+            <div>
+              <p className="text-gray-600 text-lg ">{photo.camera}</p>
+              <p className="text-gray-600 text-lg ">{photo.lens}</p>
+              <p className="text-gray-600 text-lg ">{photo.fstop}</p>
+              <p className="text-gray-600 text-lg ">{photo.shutter}</p>
+              <p className="text-gray-600 text-lg ">{photo.iso}</p>
+              <p className="text-gray-600 text-lg ">{photo.flash}</p>
+            </div>
           </div>
         </div>
 
