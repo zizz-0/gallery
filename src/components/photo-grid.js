@@ -28,7 +28,7 @@ export default function PhotoGrid({ photos }) {
               alt={photo.caption}
               width={300}
               height={300}
-              className="rounded shadow"
+              className="rounded shadow border-solid border-2"
             />
           </div>
         ))}
