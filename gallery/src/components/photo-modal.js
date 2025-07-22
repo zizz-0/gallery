@@ -7,6 +7,7 @@ export default function PhotoModal({ photo, onClose, onPrev, onNext }) {
       <div className="bg-white p-4 rounded shadow-lg relative flex flex-row items-center justify-between gap-5 h-9/10 w-9/10">
 
         <button
+        /* TODO: add padding, maybe make bigger */
           onClick={onPrev}
           className="text-gray-600 hover:text-[#6d8dc2] text-7xl cursor-pointer"
         >
