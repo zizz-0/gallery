@@ -4,6 +4,8 @@ import photos from '@/data/photos.json';
 
 export default function Home() {
   /* TODO: add different photo categories (different pages) 
+   * TODO: home page?
+   * TODO: add icons/links on header banner
    * TODO: publish to github pages */
   return (
     <main className="">

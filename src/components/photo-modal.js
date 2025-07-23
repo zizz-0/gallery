@@ -3,7 +3,6 @@ import Image from 'next/image';
 export default function PhotoModal({ photo, onClose, onPrev, onNext }) {
   const isLandscape = photo.orientation == "landscape" ? true : false;
   return (
-    /* TODO: header banner stays on top of modal */ 
     <div className="bg-white/70 fixed top-[10vh] left-0 right-0 bottom-0 flex items-center justify-center z-40">
       <div className="bg-white p-4 rounded shadow-lg relative flex flex-row items-center justify-between gap-5 h-9/10 w-9/10">
 
@@ -25,9 +24,9 @@ export default function PhotoModal({ photo, onClose, onPrev, onNext }) {
             />
           </div>
 
-          {/* TODO: gray background for info box (maybe)
-            * TODO: add location and date
-            * TODO: fix font size */}
+          {/* TODO: style date and location 
+            * TODO: maybe make info box extend full height
+            * TODO: play around with info box width (make wider) */}
           <div className="p-5 self-start bg-gray-200">
             <h2 className="text-[#4a638c] font-semibold text-xl pb-3">{photo.caption}</h2>
             <hr className="border-solid border-1 border-black"></hr>
