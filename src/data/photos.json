@@ -9,9 +9,10 @@
     "fstop": "ƒ/7.1",
     "shutter": "1/200",
     "iso": "200",
-    "flash": "No",
+    "flash": "Off",
     "date": "04/06/25",
-    "location": "Mendon Ponds Park, NY"
+    "location": "Mendon Ponds Park, NY",
+    "orientation": "portrait"
   },
   {
     "id": 2,
@@ -23,9 +24,10 @@
     "fstop": "ƒ/5.0",
     "shutter": "1/200",
     "iso": "250",
-    "flash": "No",
+    "flash": "Off",
     "date": "04/25/25",
-    "location": "Powder Mills Park, NY"
+    "location": "Powder Mills Park, NY",
+    "orientation": "portrait"
   },
   {
     "id": 3,
@@ -37,9 +39,10 @@
     "fstop": "ƒ/7.1",
     "shutter": "1/200",
     "iso": "100",
-    "flash": "No",
+    "flash": "Off",
     "date": "04/06/25",
-    "location": "Mendon Ponds Park, NY"
+    "location": "Mendon Ponds Park, NY",
+    "orientation": "landscape"
   },
   {
     "id": 4,
@@ -51,9 +54,10 @@
     "fstop": "ƒ/7.1",
     "shutter": "1/200",
     "iso": "100",
-    "flash": "No",
+    "flash": "Off",
     "date": "04/06/25",
-    "location": "Mendon Ponds Park, NY"
+    "location": "Mendon Ponds Park, NY",
+    "orientation": "portrait"
   },
   {
     "id": 5,
@@ -65,9 +69,10 @@
     "fstop": "ƒ/6.3",
     "shutter": "1/250",
     "iso": "250",
-    "flash": "No",
+    "flash": "Off",
     "date": "04/06/25",
-    "location": "Mendon Ponds Park, NY"
+    "location": "Mendon Ponds Park, NY",
+    "orientation": "portrait"
   },
   {
     "id": 6,
@@ -79,9 +84,10 @@
     "fstop": "ƒ/7.1",
     "shutter": "1/200",
     "iso": "100",
-    "flash": "No",
+    "flash": "Off",
     "date": "04/06/25",
-    "location": "Mendon Ponds Park, NY"
+    "location": "Mendon Ponds Park, NY",
+    "orientation": "landscape"
   },
   {
     "id": 7,
@@ -93,9 +99,10 @@
     "fstop": "ƒ/7.1",
     "shutter": "1/640",
     "iso": "800",
-    "flash": "No",
+    "flash": "Off",
     "date": "04/04/25",
-    "location": "Mendon Ponds Park, NY"
+    "location": "Mendon Ponds Park, NY",
+    "orientation": "portrait"
   },
   {
     "id": 8,
@@ -107,9 +114,10 @@
     "fstop": "ƒ/7.1",
     "shutter": "1/640",
     "iso": "800",
-    "flash": "No",
+    "flash": "Off",
     "date": "04/04/25",
-    "location": "Mendon Ponds Park, NY"
+    "location": "Mendon Ponds Park, NY",
+    "orientation": "portrait"
   },
   {
     "id": 9,
@@ -121,9 +129,10 @@
     "fstop": "ƒ/8.0",
     "shutter": "1/160",
     "iso": "100",
-    "flash": "No",
+    "flash": "Off",
     "date": "05/13/25",
-    "location": "Rochester, NY"
+    "location": "Rochester, NY",
+    "orientation": "landscape"
   },
   {
     "id": 10,
@@ -135,9 +144,10 @@
     "fstop": "ƒ/8.0",
     "shutter": "1/160",
     "iso": "100",
-    "flash": "No",
+    "flash": "Off",
     "date": "05/13/25",
-    "location": "Rochester, NY"
+    "location": "Rochester, NY",
+    "orientation": "portrait"
   },
   {
     "id": 11,
@@ -149,9 +159,10 @@
     "fstop": "ƒ/8.0",
     "shutter": "1/160",
     "iso": "100",
-    "flash": "No",
+    "flash": "Off",
     "date": "05/13/25",
-    "location": "Rochester, NY"
+    "location": "Rochester, NY",
+    "orientation": "portrait"
   },
   {
     "id": 12,
@@ -163,9 +174,10 @@
     "fstop": "ƒ/5.0",
     "shutter": "1/400",
     "iso": "800",
-    "flash": "No",
+    "flash": "Off",
     "date": "04/04/25",
-    "location": "Mendon Ponds Park, NY"
+    "location": "Mendon Ponds Park, NY",
+    "orientation": "landscape"
   },
   {
     "id": 13,
@@ -177,9 +189,10 @@
     "fstop": "ƒ/9.0",
     "shutter": "1/80",
     "iso": "100",
-    "flash": "No",
+    "flash": "Off",
     "date": "05/13/25",
-    "location": "Rochester, NY"
+    "location": "Rochester, NY",
+    "orientation": "portrait"
   },
   {
     "id": 14,
@@ -191,9 +204,10 @@
     "fstop": "ƒ/5.0",
     "shutter": "1/640",
     "iso": "1600",
-    "flash": "No",
+    "flash": "Off",
     "date": "04/04/25",
-    "location": "Mendon Ponds Park, NY"
+    "location": "Mendon Ponds Park, NY",
+    "orientation": "landscape"
   },
   {
     "id": 15,
@@ -205,9 +219,10 @@
     "fstop": "ƒ/7.1",
     "shutter": "1/200",
     "iso": "250",
-    "flash": "No",
+    "flash": "Off",
     "date": "04/06/25",
-    "location": "Mendon Ponds Park, NY"
+    "location": "Mendon Ponds Park, NY",
+    "orientation": "landscape"
   },
   {
     "id": 16,
@@ -219,9 +234,10 @@
     "fstop": "ƒ/7.1",
     "shutter": "1/200",
     "iso": "500",
-    "flash": "No",
+    "flash": "Off",
     "date": "04/06/25",
-    "location": "Mendon Ponds Park, NY"
+    "location": "Mendon Ponds Park, NY",
+    "orientation": "portrait"
   },
   {
     "id": 17,
@@ -233,9 +249,10 @@
     "fstop": "ƒ/7.1",
     "shutter": "1/200",
     "iso": "500",
-    "flash": "No",
+    "flash": "Off",
     "date": "04/06/25",
-    "location": "Mendon Ponds Park, NY"
+    "location": "Mendon Ponds Park, NY",
+    "orientation": "landscape"
   },
   {
     "id": 18,
@@ -247,9 +264,10 @@
     "fstop": "ƒ/7.1",
     "shutter": "1/200",
     "iso": "16000",
-    "flash": "No",
+    "flash": "Off",
     "date": "04/04/25",
-    "location": "Mendon Ponds Park, NY"
+    "location": "Mendon Ponds Park, NY",
+    "orientation": "portrait"
   },
   {
     "id": 19,
@@ -261,9 +279,10 @@
     "fstop": "ƒ/5.0",
     "shutter": "1/640",
     "iso": "800",
-    "flash": "No",
+    "flash": "Off",
     "date": "04/04/25",
-    "location": "Mendon Ponds Park, NY"
+    "location": "Mendon Ponds Park, NY",
+    "orientation": "portrait"
   },
   {
     "id": 20,
@@ -275,9 +294,10 @@
     "fstop": "ƒ/6.3",
     "shutter": "1/250",
     "iso": "250",
-    "flash": "No",
+    "flash": "Off",
     "date": "04/06/25",
-    "location": "Mendon Ponds Park, NY"
+    "location": "Mendon Ponds Park, NY",
+    "orientation": "landscape"
   },
   {
     "id": 21,
@@ -289,9 +309,10 @@
     "fstop": "ƒ/7.1",
     "shutter": "1/200",
     "iso": "100",
-    "flash": "No",
+    "flash": "Off",
     "date": "04/06/25",
-    "location": "Mendon Ponds Park, NY"
+    "location": "Mendon Ponds Park, NY",
+    "orientation": "portrait"
   },
   {
     "id": 22,
@@ -303,9 +324,10 @@
     "fstop": "ƒ/7.1",
     "shutter": "1/200",
     "iso": "100",
-    "flash": "No",
+    "flash": "Off",
     "date": "04/06/25",
-    "location": "Mendon Ponds Park, NY"
+    "location": "Mendon Ponds Park, NY",
+    "orientation": "portrait"
   },
   {
     "id": 23,
@@ -317,9 +339,10 @@
     "fstop": "ƒ/7.1",
     "shutter": "1/200",
     "iso": "320",
-    "flash": "No",
+    "flash": "Off",
     "date": "04/06/25",
-    "location": "Mendon Ponds Park, NY"
+    "location": "Mendon Ponds Park, NY",
+    "orientation": "landscape"
   },
   {
     "id": 24,
@@ -331,8 +354,84 @@
     "fstop": "ƒ/9.0",
     "shutter": "1/80",
     "iso": "100",
-    "flash": "No",
+    "flash": "Off",
     "date": "05/13/25",
-    "location": "Rochester, NY"
+    "location": "Rochester, NY",
+    "orientation": "portrait"
+  },
+  {
+    "id": 25,
+    "fullSizeUrl": "/images/sea-lion.jpg",
+    "thumbnailUrl": "/images/thumbails/sea-lion.jpg",
+    "caption": "Sea Lion",
+    "camera": "Nikon D3500",
+    "lens": "",
+    "fstop": "ƒ/5.0",
+    "shutter": "1/500",
+    "iso": "400",
+    "flash": "Off",
+    "date": "01/11/20",
+    "location": "The Bronx Zoo, NY",
+    "orientation": "landscape"
+  },
+  {
+    "id": 26,
+    "fullSizeUrl": "/images/fall-tree1.jpg",
+    "thumbnailUrl": "/images/thumbails/fall-tree1.jpg",
+    "caption": "Autumn Forest",
+    "camera": "Nikon D3500",
+    "lens": "",
+    "fstop": "ƒ/4.8",
+    "shutter": "1/500",
+    "iso": "3200",
+    "flash": "Off",
+    "date": "01/11/20",
+    "location": "Rochester, NY",
+    "orientation": "portrait"
+  },
+  {
+    "id": 27,
+    "fullSizeUrl": "/images/dreamy-tree1.jpg",
+    "thumbnailUrl": "/images/thumbails/dreamy-tree1.jpg",
+    "caption": "Autumn Forest",
+    "camera": "Nikon D3500",
+    "lens": "",
+    "fstop": "ƒ/5.0",
+    "shutter": "1/1000",
+    "iso": "3200",
+    "flash": "Off",
+    "date": "10/18/22",
+    "location": "Rochester, NY",
+    "orientation": "portrait"
+  },
+  {
+    "id": 28,
+    "fullSizeUrl": "/images/dreamy-tree2.jpg",
+    "thumbnailUrl": "/images/thumbails/dreamy-tree2.jpg",
+    "caption": "Autumn Forest",
+    "camera": "Nikon D3500",
+    "lens": "",
+    "fstop": "ƒ/5.0",
+    "shutter": "1/1000",
+    "iso": "3200",
+    "flash": "Off",
+    "date": "10/18/22",
+    "location": "Rochester, NY",
+    "orientation": "portrait"
+  },
+  {
+    "id": 29,
+    "fullSizeUrl": "/images/dreamy-tree3.jpg",
+    "thumbnailUrl": "/images/thumbails/dreamy-tree3.jpg",
+    "caption": "Autumn Forest",
+    "camera": "Nikon D3500",
+    "lens": "",
+    "fstop": "ƒ/4.5",
+    "shutter": "1/500",
+    "iso": "3200",
+    "flash": "Off",
+    "date": "10/18/22",
+    "location": "Rochester, NY",
+    "orientation": "portrait"
   }
 ]

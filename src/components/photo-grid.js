@@ -20,7 +20,7 @@ export default function PhotoGrid({ photos }) {
 
   return (
     <div>
-      <div className="grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-0">
+      <div className="grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-0 mt-17">
         {photos.map((photo, index) => (
           <div key={photo.id} onClick={() => setSelectedPhotoIndex(index)} className="cursor-pointer w-full aspect-[1/1] relative">
             <Image
