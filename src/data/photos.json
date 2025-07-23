@@ -5,7 +5,7 @@
     "thumbnailUrl": "/images/thumbails/sea-lion.jpg",
     "caption": "Sea Lion",
     "camera": "Nikon D3500",
-    "lens": "",
+    "lens": "AF-P NIKKOR 70-300mm f/4.5-5.6E",
     "fstop": "ƒ/5.0",
     "shutter": "1/500",
     "iso": "400",
@@ -16,11 +16,26 @@
   },
   {
     "id": 2,
+    "fullSizeUrl": "/images/prom.jpg",
+    "thumbnailUrl": "/images/thumbails/prom.jpg",
+    "caption": "Autumn Forest",
+    "camera": "Nikon D3500",
+    "lens": "AF-P NIKKOR 18-55mm f/3.5-5.6G",
+    "fstop": "ƒ/5.0",
+    "shutter": "1/500",
+    "iso": "200",
+    "flash": "Off",
+    "date": "08/01/20",
+    "location": "Sparta, NJ",
+    "orientation": "landscape"
+  },
+  {
+    "id": 3,
     "fullSizeUrl": "/images/fall-tree1.jpg",
     "thumbnailUrl": "/images/thumbails/fall-tree1.jpg",
     "caption": "Autumn Forest",
     "camera": "Nikon D3500",
-    "lens": "",
+    "lens": "AF-P NIKKOR 70-300mm f/4.5-5.6E",
     "fstop": "ƒ/4.8",
     "shutter": "1/500",
     "iso": "3200",
@@ -30,27 +45,12 @@
     "orientation": "portrait"
   },
   {
-    "id": 3,
+    "id": 4,
     "fullSizeUrl": "/images/dreamy-tree1.jpg",
     "thumbnailUrl": "/images/thumbails/dreamy-tree1.jpg",
     "caption": "Autumn Forest",
     "camera": "Nikon D3500",
-    "lens": "",
-    "fstop": "ƒ/5.0",
-    "shutter": "1/1000",
-    "iso": "3200",
-    "flash": "Off",
-    "date": "10/18/22",
-    "location": "Rochester, NY",
-    "orientation": "portrait"
-  },
-  {
-    "id": 4,
-    "fullSizeUrl": "/images/dreamy-tree2.jpg",
-    "thumbnailUrl": "/images/thumbails/dreamy-tree2.jpg",
-    "caption": "Autumn Forest",
-    "camera": "Nikon D3500",
-    "lens": "",
+    "lens": "AF-P NIKKOR 70-300mm f/4.5-5.6E",
     "fstop": "ƒ/5.0",
     "shutter": "1/1000",
     "iso": "3200",
@@ -61,11 +61,26 @@
   },
   {
     "id": 5,
+    "fullSizeUrl": "/images/dreamy-tree2.jpg",
+    "thumbnailUrl": "/images/thumbails/dreamy-tree2.jpg",
+    "caption": "Autumn Forest",
+    "camera": "Nikon D3500",
+    "lens": "AF-P NIKKOR 70-300mm f/4.5-5.6E",
+    "fstop": "ƒ/5.0",
+    "shutter": "1/1000",
+    "iso": "3200",
+    "flash": "Off",
+    "date": "10/18/22",
+    "location": "Rochester, NY",
+    "orientation": "portrait"
+  },
+  {
+    "id": 6,
     "fullSizeUrl": "/images/dreamy-tree3.jpg",
     "thumbnailUrl": "/images/thumbails/dreamy-tree3.jpg",
     "caption": "Autumn Forest",
     "camera": "Nikon D3500",
-    "lens": "",
+    "lens": "AF-P NIKKOR 70-300mm f/4.5-5.6E",
     "fstop": "ƒ/4.5",
     "shutter": "1/500",
     "iso": "3200",
@@ -75,12 +90,12 @@
     "orientation": "portrait"
   },
   {
-    "id": 6,
+    "id": 7,
     "fullSizeUrl": "/images/lantern.jpg",
     "thumbnailUrl": "/images/thumbails/lantern.jpg",
     "caption": "Water Lantern Festival",
     "camera": "Nikon D3500",
-    "lens": "",
+    "lens": "AF-P NIKKOR 70-300mm f/4.5-5.6E",
     "fstop": "ƒ/5.0",
     "shutter": "1/160",
     "iso": "12800",
@@ -90,12 +105,12 @@
     "orientation": "portrait"
   },
   {
-    "id": 7,
+    "id": 8,
     "fullSizeUrl": "/images/lantern2.jpg",
     "thumbnailUrl": "/images/thumbails/lantern2.jpg",
     "caption": "Water Lantern Festival",
     "camera": "Nikon D3500",
-    "lens": "",
+    "lens": "AF-P NIKKOR 70-300mm f/4.5-5.6E",
     "fstop": "ƒ/6.3",
     "shutter": "1/50",
     "iso": "12800",
@@ -105,7 +120,7 @@
     "orientation": "portrait"
   },
   {
-    "id": 8,
+    "id": 9,
     "fullSizeUrl": "/images/richie-ellie.jpg",
     "thumbnailUrl": "/images/thumbails/richie-ellie.jpg",
     "caption": "Hiking",
@@ -120,7 +135,7 @@
     "orientation": "landscape"
   },
   {
-    "id": 9,
+    "id": 10,
     "fullSizeUrl": "/images/tree-hugging.jpg",
     "thumbnailUrl": "/images/thumbails/tree-hugging.jpg",
     "caption": "Trailhead",
@@ -135,7 +150,7 @@
     "orientation": "portrait"
   },
   {
-    "id": 10,
+    "id": 11,
     "fullSizeUrl": "/images/lake.jpg",
     "thumbnailUrl": "/images/thumbails/lake.jpg",
     "caption": "Lake",
@@ -150,7 +165,7 @@
     "orientation": "landscape"
   },
   {
-    "id": 11,
+    "id": 12,
     "fullSizeUrl": "/images/richie.jpg",
     "thumbnailUrl": "/images/thumbails/richie.jpg",
     "caption": "Trailhead",
@@ -165,7 +180,7 @@
     "orientation": "portrait"
   },
   {
-    "id": 12,
+    "id": 13,
     "fullSizeUrl": "/images/eagle1.jpg",
     "thumbnailUrl": "/images/thumbails/eagle1.jpg",
     "caption": "Juvenile Bald Eagle",
@@ -180,7 +195,7 @@
     "orientation": "portrait"
   },
   {
-    "id": 13,
+    "id": 14,
     "fullSizeUrl": "/images/eagle2.jpg",
     "thumbnailUrl": "/images/thumbails/eagle2.jpg",
     "caption": "Juvenile Bald Eagle",
@@ -195,7 +210,7 @@
     "orientation": "portrait"
   },
   {
-    "id": 14,
+    "id": 15,
     "fullSizeUrl": "/images/big-tree.jpg",
     "thumbnailUrl": "/images/thumbails/big-tree.jpg",
     "caption": "big tree",
@@ -210,7 +225,7 @@
     "orientation": "portrait"
   },
   {
-    "id": 15,
+    "id": 16,
     "fullSizeUrl": "/images/chickadee1.jpg",
     "thumbnailUrl": "/images/thumbails/chickadee1.jpg",
     "caption": "Chickadee",
@@ -225,7 +240,7 @@
     "orientation": "landscape"
   },
   {
-    "id": 16,
+    "id": 17,
     "fullSizeUrl": "/images/chickadee2.jpg",
     "thumbnailUrl": "/images/thumbails/chickadee2.jpg",
     "caption": "Chickadee",
@@ -240,7 +255,7 @@
     "orientation": "portrait"
   },
   {
-    "id": 17,
+    "id": 18,
     "fullSizeUrl": "/images/chickadee3.jpg",
     "thumbnailUrl": "/images/thumbails/chickadee3.jpg",
     "caption": "Chickadee",
@@ -255,7 +270,7 @@
     "orientation": "portrait"
   },
   {
-    "id": 18,
+    "id": 19,
     "fullSizeUrl": "/images/chickadee4.jpg",
     "thumbnailUrl": "/images/thumbails/chickadee4.jpg",
     "caption": "Chickadee",
@@ -270,7 +285,7 @@
     "orientation": "landscape"
   },
   {
-    "id": 19,
+    "id": 20,
     "fullSizeUrl": "/images/trail-map.jpg",
     "thumbnailUrl": "/images/thumbails/trail-map.jpg",
     "caption": "Trailhead",
@@ -285,7 +300,7 @@
     "orientation": "landscape"
   },
   {
-    "id": 20,
+    "id": 21,
     "fullSizeUrl": "/images/trailhead1.jpg",
     "thumbnailUrl": "/images/thumbails/trailhead1.jpg",
     "caption": "Trailhead",
@@ -300,7 +315,7 @@
     "orientation": "portrait"
   },
   {
-    "id": 21,
+    "id": 22,
     "fullSizeUrl": "/images/trailhead2.jpg",
     "thumbnailUrl": "/images/thumbails/trailhead2.jpg",
     "caption": "Trailhead",
@@ -315,7 +330,7 @@
     "orientation": "landscape"
   },
   {
-    "id": 22,
+    "id": 23,
     "fullSizeUrl": "/images/fairy-house.jpg",
     "thumbnailUrl": "/images/thumbails/fairy-house.jpg",
     "caption": "Fairy Houses",
@@ -330,7 +345,7 @@
     "orientation": "landscape"
   },
   {
-    "id": 23,
+    "id": 24,
     "fullSizeUrl": "/images/cardinal.jpg",
     "thumbnailUrl": "/images/thumbails/cardinal.jpg",
     "caption": "Cardinal",
@@ -345,7 +360,7 @@
     "orientation": "portrait"
   },
   {
-    "id": 24,
+    "id": 25,
     "fullSizeUrl": "/images/cardinal2.jpg",
     "thumbnailUrl": "/images/thumbails/cardinal2.jpg",
     "caption": "Cardinal",
@@ -360,7 +375,7 @@
     "orientation": "portrait"
   },
   {
-    "id": 25,
+    "id": 26,
     "fullSizeUrl": "/images/look-up.jpg",
     "thumbnailUrl": "/images/thumbails/look-up.jpg",
     "caption": "Look Up",
@@ -375,7 +390,7 @@
     "orientation": "landscape"
   },
   {
-    "id": 26,
+    "id": 27,
     "fullSizeUrl": "/images/cherry-blossom.jpg",
     "thumbnailUrl": "/images/thumbails/cherry-blossom.jpg",
     "caption": "Cherry Blossom Tree",
@@ -390,7 +405,7 @@
     "orientation": "portrait"
   },
   {
-    "id": 27,
+    "id": 28,
     "fullSizeUrl": "/images/evan-amber1.jpg",
     "thumbnailUrl": "/images/thumbails/evan-amber1.jpg",
     "caption": "Grad",
@@ -405,7 +420,7 @@
     "orientation": "landscape"
   },
   {
-    "id": 28,
+    "id": 29,
     "fullSizeUrl": "/images/evan-amber2.jpg",
     "thumbnailUrl": "/images/thumbails/evan-amber2.jpg",
     "caption": "Grad",
@@ -420,7 +435,7 @@
     "orientation": "portrait"
   },
   {
-    "id": 29,
+    "id": 30,
     "fullSizeUrl": "/images/evan-amber3.jpg",
     "thumbnailUrl": "/images/thumbails/evan-amber3.jpg",
     "caption": "Grad",
@@ -435,7 +450,7 @@
     "orientation": "portrait"
   },
   {
-    "id": 30,
+    "id": 31,
     "fullSizeUrl": "/images/rebecca-amber.jpg",
     "thumbnailUrl": "/images/thumbails/rebecca-amber.jpg",
     "caption": "Grad",
@@ -450,7 +465,7 @@
     "orientation": "portrait"
   },
   {
-    "id": 31,
+    "id": 32,
     "fullSizeUrl": "/images/rebecca-amber-2.jpg",
     "thumbnailUrl": "/images/thumbails/rebecca-amber-2.jpg",
     "caption": "Grad",

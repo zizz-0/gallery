@@ -27,16 +27,14 @@ export default function PhotoModal({ photo, onClose, onPrev, onNext }) {
           {/* TODO: style date and location 
             * TODO: maybe make info box extend full height
             * TODO: play around with info box width (make wider) */}
-          <div className="p-5 self-start bg-gray-200">
-            <h2 className="text-[#4a638c] font-semibold text-xl pb-3">{photo.caption}</h2>
-            <hr className="border-solid border-1 border-black"></hr>
-            <div className="py-3">
-              <p className="text-gray-600 text-lg ">{photo.date}</p>
-              <p className="text-gray-600 text-lg ">{photo.location}</p>
+          <div className="p-5 self-start bg-gray-200 w-[25vw] h-[70vh]" style={{ fontFamily: 'Trebuchet MS, sans-serif' }}>
+            <div className="pb-5">
+              <p className="text-gray-600 text-xl">{photo.date}</p>
+              <p className="text-gray-600 text-xl">{photo.location}</p>
             </div>
-            <hr className="border-solid border-1 border-black"></hr>
+            <hr className="border-solid border-1 border-[#4a638c]"></hr>
             <div>
-              <div className="flex gap-2 pb-3 pt-3 items-center">
+              <div className="flex gap-2 pb-4 pt-5 items-center">
                 <Image
                   src={"/icons/camera.png"}
                   alt={"Camera symbol"}
@@ -45,7 +43,7 @@ export default function PhotoModal({ photo, onClose, onPrev, onNext }) {
                 />
                 <p className="text-gray-600 text-lg">{photo.camera}</p>
               </div>
-              <div className="flex gap-2 pb-3 items-center">
+              <div className="flex gap-2 pb-4 items-center">
                 <Image
                   src={"/icons/lens.png"}
                   alt={"Lens symbol"}
@@ -54,7 +52,7 @@ export default function PhotoModal({ photo, onClose, onPrev, onNext }) {
                 />
                 <p className="text-gray-600 text-lg">{photo.lens}</p>
               </div>
-              <div className="flex gap-2 pb-3 items-center">
+              <div className="flex gap-2 pb-4 items-center">
                 <Image
                   src={"/icons/aperture.png"}
                   alt={"Aperture symbol"}
@@ -63,7 +61,7 @@ export default function PhotoModal({ photo, onClose, onPrev, onNext }) {
                 />
                 <p className="text-gray-600 text-lg">{photo.fstop}</p>
               </div>
-              <div className="flex gap-2 pb-3 items-center">
+              <div className="flex gap-2 pb-4 items-center">
                 <Image
                   src={"/icons/shutterspeed.png"}
                   alt={"Shutter speed symbol"}
@@ -72,7 +70,7 @@ export default function PhotoModal({ photo, onClose, onPrev, onNext }) {
                 />
                 <p className="text-gray-600 text-lg">{photo.shutter}</p>
               </div>
-              <div className="flex gap-2 pb-3 items-center">
+              <div className="flex gap-2 pb-4 items-center">
                 <Image
                   src={"/icons/iso.png"}
                   alt={"Iso symbol"}
@@ -81,7 +79,7 @@ export default function PhotoModal({ photo, onClose, onPrev, onNext }) {
                 />
                 <p className="text-gray-600 text-lg">{photo.iso}</p>
               </div>
-              <div className="flex gap-2 pb-3 items-center">
+              <div className="flex gap-2 pb-4 items-center">
                 <Image
                   src={"/icons/flash.png"}
                   alt={"Flash symbol"}
