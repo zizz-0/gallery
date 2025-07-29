@@ -27,7 +27,7 @@ export default function PhotoModal({ photo, onClose, onPrev, onNext }) {
           {/* TODO: style date and location 
             * TODO: maybe make info box extend full height
             * TODO: play around with info box width (make wider) */}
-          <div className="p-5 self-start bg-gray-200 w-[25vw] h-[70vh]" style={{ fontFamily: 'Trebuchet MS, sans-serif' }}>
+          <div className="p-5 self-start bg-gray-200 w-[25vw] h-[70vh]" style={{fontFamily: 'Trebuchet MS, sans-serif'}}>
             <div className="pb-5">
               <p className="text-gray-600 text-xl">{photo.date}</p>
               <p className="text-gray-600 text-xl">{photo.location}</p>
