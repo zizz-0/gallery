@@ -1,35 +1,38 @@
 const { ExifTool } = require("exiftool-vendored");
-const { readdir, readJson, writeJson, pathExists } = require("fs-extra");
+const { readdir, readJson, writeJson } = require("fs-extra");
 const path = require("path");
+const { stat } = require("fs/promises");
+const readline = require("readline");
 
 const exiftool = new ExifTool();
 
 const imagesDir = path.join(__dirname, "..", "public", "images");
 const outputFile = path.join(__dirname, "data", "photos.json");
 
-function formatExifDate(dateStr) {
-  if (!dateStr || typeof dateStr !== "string") return "";
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
 
-  const dateParts = dateStr.split(" ")[0].split(":");
-  if (dateParts.length !== 3) return "";
-
-  const year = parseInt(dateParts[0], 10);
-  const month = parseInt(dateParts[1], 10);
-  const day = parseInt(dateParts[2], 10);
-
-  if (!year || !month || !day) return "";
-
-  const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "June",
-                      "July", "Aug", "Sep", "Oct", "Nov", "Dec"];
-
-  const monthName = monthNames[month - 1];
-  return `${monthName} ${day}, ${year}`;
+function userInput(query) {
+  return new Promise(resolve => rl.question(query, resolve));
 }
 
+function formatExifDate(dateInput) {
+  if (!dateInput) return "";
+
+  const date = typeof dateInput === "string" ? new Date(dateInput.replace(/:/g, "-")) : new Date(dateInput);
+  if (isNaN(date)) return "";
+
+  const year = date.getFullYear();
+  const day = date.getDate();
+  const monthIndex = date.getMonth();
+  const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "June", "July", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  return `${monthNames[monthIndex]} ${day}, ${year}`;
+}
 
 (async () => {
   const files = await readdir(imagesDir);
-  const photoData = [];
 
   let existingPhotos = [];
   try {
@@ -37,6 +40,8 @@ function formatExifDate(dateStr) {
   } catch (err) {
     console.log("No existing photos.json found. Creating a new one.");
   }
+
+  const photoData = [...existingPhotos];
 
   let nextId = existingPhotos.length > 0
     ? Math.max(...existingPhotos.map((p) => p.id)) + 1
@@ -49,36 +54,47 @@ function formatExifDate(dateStr) {
     const filePath = path.join(imagesDir, file);
     const metadata = await exiftool.read(filePath);
 
+    const fileStats = await stat(filePath);
+    const fallbackDate = fileStats.birthtime || fileStats.ctime;
+
+    const rawDate = metadata.CreateDate || metadata.DateTimeOriginal || fallbackDate.toISOString();
+    const formattedDate = formatExifDate(rawDate);
+
     const width = metadata.ImageWidth || metadata.ExifImageWidth;
     const height = metadata.ImageHeight || metadata.ExifImageHeight;
     const orientation = width > height ? "landscape" : "portrait";
 
-    const existing = existingPhotos.find(
-      (p) => p.fullSizeUrl === `/images/${file}`
-    );
+    const fullSizeUrl = `/images/${file}`;
 
-    const updated = {
-      id: existing?.id || nextId++,
-      fullSizeUrl: `/images/${file}`,
+    const existing = existingPhotos.find((p) => p.fullSizeUrl === fullSizeUrl);
+    if (existing) continue;
+
+    let location = await userInput(`Enter location for ${file}: `);
+    let caption = await userInput(`Enter caption for ${file}: `);
+
+    const newPhoto = {
+      id: nextId++,
+      fullSizeUrl,
       thumbnailUrl: `/images/thumbnails/${file}`,
-      location: existing?.location || (metadata.GPSLatitude && metadata.GPSLongitude
-        ? `${metadata.GPSLatitude}, ${metadata.GPSLongitude}`
-        : ""),
-      date: existing?.date || formatExifDate(metadata.CreateDate || metadata.DateTimeOriginal),
-      camera: existing?.camera || metadata.Model || "",
-      lens: existing?.lens || metadata.Lens || metadata.LensModel || "",
-      fstop: existing?.fstop || (metadata.FNumber ? `ƒ/${metadata.FNumber}` : ""),
-      shutter: existing?.shutter || metadata.ShutterSpeed || metadata.ExposureTime || "",
-      iso: existing?.iso || metadata.ISO || "",
-      flash: existing?.flash || (metadata.Flash?.includes("Fired") ? "On" : "Off") || "",
+      location: location,
+      date: formattedDate,
+      caption: caption,
+      camera: metadata.Model || "",
+      lens: metadata.Lens || metadata.LensModel || "",
+      fstop: metadata.FNumber ? `ƒ/${metadata.FNumber}` : "",
+      shutter: metadata.ShutterSpeed || metadata.ExposureTime || "",
+      iso: metadata.ISO || "",
+      flash: (metadata.Flash?.includes("Fired") ? "On" : "Off") || "",
       width,
       height,
       orientation
     };
-    photoData.push(updated);
+
+    photoData.push(newPhoto);
   }
 
   await writeJson(outputFile, photoData, { spaces: 2 });
   await exiftool.end();
+  rl.close();
   console.log("EXIF data updated");
 })();
