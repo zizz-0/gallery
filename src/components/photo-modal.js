@@ -1,7 +1,6 @@
 import Image from 'next/image';
 
 export default function PhotoModal({ photo, onClose, onPrev, onNext }) {
-  const isLandscape = photo.orientation == "landscape" ? true : false;
   return (
     <div className="bg-white/70 fixed top-[10vh] left-0 right-0 bottom-0 flex items-center justify-center z-40">
       <div className="bg-white p-4 rounded shadow-lg relative flex flex-row items-center justify-between gap-5 h-9/10 w-9/10">
@@ -13,24 +12,27 @@ export default function PhotoModal({ photo, onClose, onPrev, onNext }) {
           &#8249;
         </button>
 
-        <div className="flex flex-row items-center gap-0">
+        <div className="flex flex-col md:flex-row items-start gap-5">
           {/* magnifying zoom box on hover? */}
-          <div className={`relative rounded ${isLandscape ? 'w-[55vw] h-[70vh]' : 'w-[30vw] h-[70vh]'}`}>
+          <div
+            className={`relative rounded ${
+              photo.orientation === "landscape"
+                ? "w-full h-[50vh] md:w-[55vw] md:h-[70vh]"
+                : "w-full h-[60vh] md:w-[30vw] md:h-[70vh]"
+            }`}
+          >
             <Image
               src={photo.fullSizeUrl}
               alt={photo.caption}
               fill
-              className="object-contain rounded"
+              className="object-contain max-h-full rounded"
             />
           </div>
 
-          {/* TODO: style date and location 
-            * TODO: maybe make info box extend full height
-            * TODO: play around with info box width (make wider) */}
-          <div className="p-5 self-start bg-gray-200 w-[25vw] h-[70vh]" style={{fontFamily: 'Trebuchet MS, sans-serif'}}>
+          <div className="overflow-y-auto p-5 bg-gray-200 w-full md:w-[25vw] h-auto md:h-[70vh]" style={{fontFamily: 'Trebuchet MS, sans-serif'}}>
             <div className="pb-5">
-              <p className="text-gray-600 text-xl">{photo.date}</p>
-              <p className="text-gray-600 text-xl">{photo.location}</p>
+              <p className="text-gray-600 text-xl md:text-2xl">{photo.date}</p>
+              <p className="text-gray-600 text-xl md:text-2xl">{photo.location}</p>
             </div>
             <hr className="border-solid border-1 border-[#4a638c]"></hr>
             <div>
@@ -41,7 +43,7 @@ export default function PhotoModal({ photo, onClose, onPrev, onNext }) {
                   width={35}
                   height={3}
                 />
-                <p className="text-gray-600 text-lg">{photo.camera}</p>
+                <p className="text-gray-600 text-lg md:text-xl">{photo.camera}</p>
               </div>
               <div className="flex gap-2 pb-4 items-center">
                 <Image
@@ -50,7 +52,7 @@ export default function PhotoModal({ photo, onClose, onPrev, onNext }) {
                   width={35}
                   height={35}
                 />
-                <p className="text-gray-600 text-lg">{photo.lens}</p>
+                <p className="text-gray-600 text-lg md:text-xl">{photo.lens}</p>
               </div>
               <div className="flex gap-2 pb-4 items-center">
                 <Image
@@ -59,7 +61,7 @@ export default function PhotoModal({ photo, onClose, onPrev, onNext }) {
                   width={35}
                   height={35}
                 />
-                <p className="text-gray-600 text-lg">{photo.fstop}</p>
+                <p className="text-gray-600 text-lg md:text-xl">{photo.fstop}</p>
               </div>
               <div className="flex gap-2 pb-4 items-center">
                 <Image
@@ -68,7 +70,7 @@ export default function PhotoModal({ photo, onClose, onPrev, onNext }) {
                   width={35}
                   height={35}
                 />
-                <p className="text-gray-600 text-lg">{photo.shutter}</p>
+                <p className="text-gray-600 text-lg md:text-xl">{photo.shutter}</p>
               </div>
               <div className="flex gap-2 pb-4 items-center">
                 <Image
@@ -77,7 +79,7 @@ export default function PhotoModal({ photo, onClose, onPrev, onNext }) {
                   width={35}
                   height={35}
                 />
-                <p className="text-gray-600 text-lg">{photo.iso}</p>
+                <p className="text-gray-600 text-lg md:text-xl">{photo.iso}</p>
               </div>
               <div className="flex gap-2 pb-4 items-center">
                 <Image
@@ -86,7 +88,7 @@ export default function PhotoModal({ photo, onClose, onPrev, onNext }) {
                   width={35}
                   height={35}
                 />
-                <p className="text-gray-600 text-lg">{photo.flash}</p>
+                <p className="text-gray-600 text-lg md:text-xl">{photo.flash}</p>
               </div>
             </div>
           </div>

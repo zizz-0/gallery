@@ -20,15 +20,15 @@ export default function PhotoGrid({ photos }) {
 
   return (
     <div>
-      <div className="grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-0 mt-17">
+      <div className="grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-0 mt-[12vh]">
         {/* TODO: randomize order? add sort feature? */}
         {photos.map((photo, index) => (
-          <div key={photo.id} onClick={() => setSelectedPhotoIndex(index)} className="cursor-pointer w-full aspect-[1/1] relative hover:opacity-50">
+          <div key={photo.id} onClick={() => setSelectedPhotoIndex(index)} className="cursor-pointer w-full sm:w-auto aspect-[1/1] relative hover:opacity-50">
             <Image
               src={photo.thumbnailUrl}
               alt={photo.caption}
-              width={300}
-              height={300}
+              fill
+              sizes="(max-width: 640px) 100vw, 300px"
               className="rounded shadow border-solid border-2"
             />
           </div>
