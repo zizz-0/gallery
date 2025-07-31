@@ -69,7 +69,7 @@ export default function PhotoModal({ photo, onClose, onPrev, onNext }) {
             ref={containerRef}
             className={`relative rounded cursor-crosshair ${
               photo.orientation === "landscape"
-                ? "w-full h-[35vh] md:w-[55vw] md:h-[70vh]"
+                ? "w-full h-[35vh] md:w-[55vw] md:h-[65vh]"
                 : "w-full h-[60vh] md:w-[30vw] md:h-[70vh]"
             }`}
             onMouseEnter={() => setShowMagnifier(true)}
@@ -111,7 +111,12 @@ export default function PhotoModal({ photo, onClose, onPrev, onNext }) {
             )}
           </div>
 
-          <div className="overflow-y-auto p-5 bg-gray-200 w-full md:w-[25vw] h-auto md:h-[70vh]" style={{fontFamily: 'Trebuchet MS, sans-serif'}}>
+          <div className={`p-5 bg-gray-200 w-full ${
+              photo.orientation === "landscape"
+                ? "w-full h-[35vh] md:w-[25vw] h-auto md:h-[65vh]"
+                : "w-full h-[60vh] md:w-[25vw]  h-auto md:h-[70vh]"
+            }`}
+            style={{fontFamily: 'Trebuchet MS, sans-serif'}}>
             <div className="pb-5">
               <p className="text-gray-600 text-xl md:text-2xl 3xl:text-3xl">{photo.date}</p>
               <p className="text-gray-600 text-xl md:text-2xl 3xl:text-3xl">{photo.location}</p>

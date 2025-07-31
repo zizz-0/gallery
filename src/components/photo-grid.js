@@ -21,7 +21,6 @@ export default function PhotoGrid({ photos }) {
   return (
     <div>
       <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-0 mt-[12vh]">
-        {/* TODO: randomize order? add sort feature? */}
         {photos.map((photo, index) => (
           <div key={photo.id} onClick={() => setSelectedPhotoIndex(index)} className="cursor-pointer aspect-[1/1] relative hover:opacity-50">
             <Image

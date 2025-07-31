@@ -71,6 +71,7 @@ function formatExifDate(dateInput) {
 
     let location = await userInput(`Enter location for ${file}: `);
     let caption = await userInput(`Enter caption for ${file}: `);
+    let highlight = await userInput(`Highlight ${file}? (y/n): `);
 
     const newPhoto = {
       id: nextId++,
@@ -87,7 +88,8 @@ function formatExifDate(dateInput) {
       flash: (metadata.Flash?.includes("Fired") ? "On" : "Off") || "",
       width,
       height,
-      orientation
+      orientation,
+      highlight: highlight
     };
 
     photoData.push(newPhoto);
