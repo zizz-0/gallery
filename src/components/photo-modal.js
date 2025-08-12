@@ -125,7 +125,7 @@ export default function PhotoModal({ photo, onClose, onPrev, onNext }) {
             <div>
               <div className="flex gap-2 pb-4 pt-5 items-center">
                 <Image
-                  src={"/icons/camera.png"}
+                  src={"icons/camera.png"}
                   alt={"Camera symbol"}
                   width={35}
                   height={3}
@@ -134,7 +134,7 @@ export default function PhotoModal({ photo, onClose, onPrev, onNext }) {
               </div>
               <div className="flex gap-2 pb-4 items-center">
                 <Image
-                  src={"/icons/lens.png"}
+                  src={"icons/lens.png"}
                   alt={"Lens symbol"}
                   width={35}
                   height={35}
@@ -145,7 +145,7 @@ export default function PhotoModal({ photo, onClose, onPrev, onNext }) {
               <div className="flex flex-row sm:flex-col gap-7 sm:gap-0">
                 <div className="flex gap-2 pb-4 items-center">
                   <Image
-                    src={"/icons/aperture.png"}
+                    src={"icons/aperture.png"}
                     alt={"Aperture symbol"}
                     width={35}
                     height={35}
@@ -154,7 +154,7 @@ export default function PhotoModal({ photo, onClose, onPrev, onNext }) {
                 </div>
                 <div className="flex gap-2 pb-4 items-center">
                   <Image
-                    src={"/icons/shutterspeed.png"}
+                    src={"icons/shutterspeed.png"}
                     alt={"Shutter speed symbol"}
                     width={35}
                     height={35}
@@ -166,7 +166,7 @@ export default function PhotoModal({ photo, onClose, onPrev, onNext }) {
               <div className="flex flex-row sm:flex-col gap-7 sm:gap-0">
                 <div className="flex gap-2 pb-4 items-center">
                   <Image
-                    src={"/icons/iso.png"}
+                    src={"icons/iso.png"}
                     alt={"Iso symbol"}
                     width={35}
                     height={35}
@@ -175,7 +175,7 @@ export default function PhotoModal({ photo, onClose, onPrev, onNext }) {
                 </div>
                 <div className="flex gap-2 pb-4 items-center">
                   <Image
-                    src={"/icons/flash.png"}
+                    src={"icons/flash.png"}
                     alt={"Flash symbol"}
                     width={35}
                     height={35}
