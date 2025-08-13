@@ -22,7 +22,7 @@ export default function ScrollHighlights({ photos }) {
         ))}
       </div>
       <div className="flex justify-center p-5">
-        <h2 className="text-xl text-gray-600" style={{fontFamily: 'Trebuchet MS, sans-serif'}}>View more photos in my <a href="/gallery" className="underline">gallery</a></h2>
+        <h2 className="text-xl text-gray-600" style={{fontFamily: 'Trebuchet MS, sans-serif'}}>View more photos in my <a href="/gallery/gallery" className="underline">gallery</a></h2>
       </div>
     </div>
   );
