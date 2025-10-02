@@ -74,6 +74,12 @@ function formatExifDate(dateInput) {
     let location = await userInput(`Enter location for ${file}: `);
     let caption = "";
     let highlight = await userInput(`Highlight ${file}? (y/n): `);
+    let categoryInput = await userInput(`Category for ${file}? 1: animals 2: people 3: nature (for multiple, add a space between each number): `);
+
+    let category = categoryInput
+      .split(/\s+/)
+      .map(num => parseInt(num, 10))
+      .filter(num => !isNaN(num));
 
     const newPhoto = {
       id: nextId++,
@@ -91,7 +97,8 @@ function formatExifDate(dateInput) {
       width,
       height,
       orientation,
-      highlight: highlight
+      highlight: highlight,
+      category: category
     };
 
     photoData.push(newPhoto);

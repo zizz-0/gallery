@@ -753,7 +753,10 @@
     "width": 3176,
     "height": 4764,
     "orientation": "portrait",
-    "highlight": "n"
+    "highlight": "n",
+    "category": [
+      3
+    ]
   },
   {
     "id": 40,
@@ -771,7 +774,10 @@
     "width": 3029,
     "height": 4544,
     "orientation": "portrait",
-    "highlight": "n"
+    "highlight": "n",
+    "category": [
+      1
+    ]
   },
   {
     "id": 41,
@@ -789,7 +795,10 @@
     "width": 4000,
     "height": 6000,
     "orientation": "portrait",
-    "highlight": "n"
+    "highlight": "n",
+    "category": [
+      3
+    ]
   },
   {
     "id": 42,
@@ -807,7 +816,10 @@
     "width": 4000,
     "height": 6000,
     "orientation": "portrait",
-    "highlight": "n"
+    "highlight": "n",
+    "category": [
+      3
+    ]
   },
   {
     "id": 43,
@@ -825,7 +837,10 @@
     "width": 6000,
     "height": 4000,
     "orientation": "landscape",
-    "highlight": "y"
+    "highlight": "y",
+    "category": [
+      3
+    ]
   },
   {
     "id": 44,
@@ -843,7 +858,10 @@
     "width": 6000,
     "height": 4000,
     "orientation": "landscape",
-    "highlight": "y"
+    "highlight": "y",
+    "category": [
+      3
+    ]
   },
   {
     "id": 45,
@@ -861,7 +879,10 @@
     "width": 4000,
     "height": 6000,
     "orientation": "portrait",
-    "highlight": "y"
+    "highlight": "y",
+    "category": [
+      3
+    ]
   },
   {
     "id": 46,
@@ -879,7 +900,10 @@
     "width": 6000,
     "height": 4000,
     "orientation": "landscape",
-    "highlight": "y"
+    "highlight": "y",
+    "category": [
+      3
+    ]
   },
   {
     "id": 47,
@@ -897,7 +921,10 @@
     "width": 3256,
     "height": 4884,
     "orientation": "portrait",
-    "highlight": "n"
+    "highlight": "n",
+    "category": [
+      3
+    ]
   },
   {
     "id": 48,
@@ -915,6 +942,9 @@
     "width": 6000,
     "height": 4000,
     "orientation": "landscape",
-    "highlight": "n"
+    "highlight": "n",
+    "category": [
+      3
+    ]
   }
 ]
