@@ -1,6 +1,6 @@
 export default function Header({title}) {
   return (
-    <div className="flex items-center justify-between py-8 relative">
+    <div className="flex items-center justify-between py-8 relative z-50">
       <nav>
         <section className="MOBILE-MENU flex lg:hidden items-center">
           <input

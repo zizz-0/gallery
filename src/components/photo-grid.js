@@ -36,12 +36,12 @@ export default function PhotoGrid({ photos }) {
 
   return (
     <div>
-      <div className="flex pl-5 pt-4 pb-3 pt-[13vh] bg-white text-black relative">
+      <div className="flex pl-5 pt-4 pb-3 bg-white text-black sticky top-[12vh] z-30">
         <label className="mr-2 font-semibold">Filter Gallery:</label>
         <select
           value={selectedCategory}
           onChange={(e) => setSelectedCategory(e.target.value)}
-          className="border rounded px-3 py-1 cursor-pointer hover:cursor-pointer relative z-50"
+          className="border rounded px-3 py-1 cursor-pointer hover:cursor-pointer"
         >
           <option value="all">All</option>
           {Object.entries(categories).map(([key, label]) => (
@@ -52,7 +52,7 @@ export default function PhotoGrid({ photos }) {
         </select>
       </div>
 
-      <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-0">
+      <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-0 relative z-0 mt-[12vh]">
         {filteredPhotos.map((photo, index) => (
           <div
             key={photo.id}
