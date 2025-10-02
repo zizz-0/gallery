@@ -64,13 +64,15 @@ function formatExifDate(dateInput) {
     const height = metadata.ImageHeight || metadata.ExifImageHeight;
     const orientation = width > height ? "landscape" : "portrait";
 
-    const fullSizeUrl = `/images/${file}`;
+    const fullSizeUrl = `images/${file}`;
+
+    if (fullSizeUrl == `images/me.jpg`) continue;
 
     const existing = existingPhotos.find((p) => p.fullSizeUrl === fullSizeUrl);
     if (existing) continue;
 
     let location = await userInput(`Enter location for ${file}: `);
-    let caption = await userInput(`Enter caption for ${file}: `);
+    let caption = "";
     let highlight = await userInput(`Highlight ${file}? (y/n): `);
 
     const newPhoto = {
