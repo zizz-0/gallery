@@ -8,9 +8,9 @@ export default function PhotoGrid({ photos }) {
   const [selectedCategory, setSelectedCategory] = useState("all");
 
   const categories = {
-    1: "Animals",
-    2: "People",
-    3: "Nature",
+    1: "Wildlife",
+    2: "Portrait",
+    3: "Scenery",
   };
 
   const handleNext = () => {
