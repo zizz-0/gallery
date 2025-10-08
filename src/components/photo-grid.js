@@ -10,7 +10,7 @@ export default function PhotoGrid({ photos }) {
   const categories = {
     1: "Wildlife",
     2: "Portrait",
-    3: "Scenery",
+    3: "Nature",
   };
 
   const handleNext = () => {
