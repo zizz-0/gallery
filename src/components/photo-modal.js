@@ -1,11 +1,19 @@
 import Image from 'next/image';
-import { useState, useRef } from 'react';
+import { useState, useRef, useEffect } from 'react';
 
 export default function PhotoModal({ photo, onClose, onPrev, onNext }) {
   const [showMagnifier, setShowMagnifier] = useState(false);
   const [magnifierPos, setMagnifierPos] = useState({ x: 0, y: 0 });
   const [naturalSize, setNaturalSize] = useState({ width: 0, height: 0 });
+  const [isMobile, setIsMobile] = useState(false);
   const containerRef = useRef(null);
+
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth < 768);
+    handleResize();
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   const magnifierSize = 300;
   const [zoom, setZoom] = useState(2);
@@ -86,7 +94,7 @@ export default function PhotoModal({ photo, onClose, onPrev, onNext }) {
               }
             />
 
-            {showMagnifier && naturalSize.width > 0 && (
+            {!isMobile && showMagnifier && naturalSize.width > 0 && (
               <div
                 style={{
                   position: 'absolute',
