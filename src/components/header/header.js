@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Header({title}) {
   return (
     <div className="flex items-center justify-between py-8 relative z-50">
@@ -11,7 +13,7 @@ export default function Header({title}) {
 
           <div className="flex items-center w-[100vw]">
             <h1 className="text-3xl p-5 pr-[70px]" style={{fontFamily: 'Trebuchet MS, sans-serif'}}>{title}</h1>
-
+            
             <label htmlFor="menu-toggle" className="HAMBURGER-ICON space-y-2 cursor-pointer fixed top-9 right-4">
               <span className="block h-0.5 w-8 bg-white"></span>
               <span className="block h-0.5 w-8 bg-white"></span>
@@ -54,7 +56,18 @@ export default function Header({title}) {
         </section>
 
         <div className="flex items-center w-[100vw] justify-between">
-          <h1 className="hidden text-3xl p-5 pr-[70px] lg:flex" style={{fontFamily: 'Trebuchet MS, sans-serif'}}>{title}</h1>
+          <div className="flex items-center ml-4">
+            {/* <div style={{borderRadius:'100%', overflow:'hidden'}}> */}
+              <Image 
+                  src="/icons/z-logo-photo-whitebg.png" 
+                  alt="logo"
+                  width={50}
+                  height={50}
+                  className="rounded-full object-cover aspect-square"
+                />
+            {/* </div> */}
+            <h1 className="hidden text-3xl p-5 pr-[70px] lg:flex" style={{fontFamily: 'Trebuchet MS, sans-serif'}}>{title}</h1>
+          </div>
           <ul className="DESKTOP-MENU hidden space-x-5 lg:flex mr-[20px]">
             <li>
               <a href="/" className="mx-4 mr-2 text-2xl underline" style={{fontFamily: 'Trebuchet MS, sans-serif'}}>Home</a>
