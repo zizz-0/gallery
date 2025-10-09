@@ -56,16 +56,14 @@ export default function Header({title}) {
         </section>
 
         <div className="flex items-center w-[100vw] justify-between">
-          <div className="flex items-center ml-4">
-            {/* <div style={{borderRadius:'100%', overflow:'hidden'}}> */}
-              <Image 
-                  src="/icons/z-logo-photo-whitebg.png" 
-                  alt="logo"
-                  width={50}
-                  height={50}
-                  className="rounded-full object-cover aspect-square"
-                />
-            {/* </div> */}
+          <div className="hidden lg:flex items-center ml-4">
+            <Image 
+                src="/icons/z-logo-cam-whitebg.png" 
+                alt="logo"
+                width={50}
+                height={50}
+                className="rounded-full object-cover aspect-square"
+              />
             <h1 className="hidden text-3xl p-5 pr-[70px] lg:flex" style={{fontFamily: 'Trebuchet MS, sans-serif'}}>{title}</h1>
           </div>
           <ul className="DESKTOP-MENU hidden space-x-5 lg:flex mr-[20px]">
