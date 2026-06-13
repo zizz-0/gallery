@@ -27,10 +27,14 @@ export default function PhotoGrid({ photos }) {
     }
   };
 
+  const sortedPhotos = [...photos].sort(
+    (a, b) => new Date(b.date) - new Date(a.date)
+  );
+
   const filteredPhotos =
     selectedCategory === "all"
-      ? photos
-      : photos.filter((photo) =>
+      ? sortedPhotos
+      : sortedPhotos.filter((photo) =>
           photo.category.includes(Number(selectedCategory))
         );
 

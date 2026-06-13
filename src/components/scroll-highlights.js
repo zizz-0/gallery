@@ -16,7 +16,11 @@ export default function ScrollHighlights({ photos }) {
             <img
               src={photo.fullSizeUrl}
               alt={photo.caption}
-              className="w-full h-full object-cover border-solid border-3"
+              className={`w-full h-full border-solid border-3 ${
+                photo.fullSizeUrl.startsWith("images/prom")
+                  ? "object-cover object-top"
+                  : "object-cover"
+              }`}
             />
           </div>
         ))}

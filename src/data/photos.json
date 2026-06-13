@@ -14,9 +14,7 @@
     "location": "Rochester, NY",
     "orientation": "portrait",
     "highlight": "y",
-    "category": [
-      
-    ]
+    "category": []
   },
   {
     "id": 8,
@@ -33,9 +31,7 @@
     "location": "Rochester, NY",
     "orientation": "portrait",
     "highlight": "n",
-    "category": [
-      
-    ]
+    "category": []
   },
   {
     "id": 9,
@@ -554,7 +550,7 @@
     "width": 4000,
     "height": 6000,
     "orientation": "portrait",
-    "highlight": "y",
+    "highlight": "n",
     "category": [
       1
     ]
@@ -577,7 +573,7 @@
     "orientation": "landscape",
     "highlight": "n",
     "category": [
-      
+      1
     ]
   },
   {
@@ -596,7 +592,7 @@
     "width": 6000,
     "height": 4000,
     "orientation": "landscape",
-    "highlight": "y",
+    "highlight": "n",
     "category": [
       1
     ]
@@ -831,6 +827,258 @@
     "highlight": "n",
     "category": [
       3
+    ]
+  },
+  {
+    "id": 49,
+    "fullSizeUrl": "images/grad-cap-backward.jpg",
+    "thumbnailUrl": "/images/thumbnails/grad-cap-backward.jpg",
+    "location": "Stanhope, NJ",
+    "date": "May 17, 2026",
+    "caption": "",
+    "camera": "Canon EOS R50",
+    "lens": "RF50mm F1.8 STM",
+    "fstop": "ƒ/4",
+    "shutter": "1/320",
+    "iso": 100,
+    "flash": "Off",
+    "width": 3946,
+    "height": 5919,
+    "orientation": "portrait",
+    "highlight": "n",
+    "category": [
+      2
+    ]
+  },
+  {
+    "id": 50,
+    "fullSizeUrl": "images/grad-cap-toss.jpg",
+    "thumbnailUrl": "/images/thumbnails/grad-cap-toss.jpg",
+    "location": "Stanhope, NJ",
+    "date": "May 17, 2026",
+    "caption": "",
+    "camera": "Canon EOS R50",
+    "lens": "RF50mm F1.8 STM",
+    "fstop": "ƒ/4",
+    "shutter": "1/320",
+    "iso": 100,
+    "flash": "Off",
+    "width": 4000,
+    "height": 6000,
+    "orientation": "portrait",
+    "highlight": "y",
+    "category": [
+      2
+    ]
+  },
+  {
+    "id": 51,
+    "fullSizeUrl": "images/grad-crouch.jpg",
+    "thumbnailUrl": "/images/thumbnails/grad-crouch.jpg",
+    "location": "Stanhope, NJ",
+    "date": "May 17, 2026",
+    "caption": "",
+    "camera": "Canon EOS R50",
+    "lens": "RF50mm F1.8 STM",
+    "fstop": "ƒ/3.2",
+    "shutter": "1/200",
+    "iso": 100,
+    "flash": "Off",
+    "width": 4000,
+    "height": 6000,
+    "orientation": "portrait",
+    "highlight": "y",
+    "category": [
+      2
+    ]
+  },
+  {
+    "id": 52,
+    "fullSizeUrl": "images/grad-off-shoulder.jpg",
+    "thumbnailUrl": "/images/thumbnails/grad-off-shoulder.jpg",
+    "location": "Stanhope, NJ",
+    "date": "May 17, 2026",
+    "caption": "",
+    "camera": "Canon EOS R50",
+    "lens": "RF50mm F1.8 STM",
+    "fstop": "ƒ/3.2",
+    "shutter": "1/200",
+    "iso": 100,
+    "flash": "Off",
+    "width": 6000,
+    "height": 4000,
+    "orientation": "landscape",
+    "highlight": "y",
+    "category": [
+      2
+    ]
+  },
+  {
+    "id": 53,
+    "fullSizeUrl": "images/grad-over-shoulder.jpg",
+    "thumbnailUrl": "/images/thumbnails/grad-over-shoulder.jpg",
+    "location": "Stanhope, NJ",
+    "date": "May 17, 2026",
+    "caption": "",
+    "camera": "Canon EOS R50",
+    "lens": "RF50mm F1.8 STM",
+    "fstop": "ƒ/3.2",
+    "shutter": "1/200",
+    "iso": 100,
+    "flash": "Off",
+    "width": 4000,
+    "height": 6000,
+    "orientation": "portrait",
+    "highlight": "n",
+    "category": [
+      2
+    ]
+  },
+  {
+    "id": 54,
+    "fullSizeUrl": "images/grad-plushie.jpg",
+    "thumbnailUrl": "/images/thumbnails/grad-plushie.jpg",
+    "location": "Stanhope, NJ",
+    "date": "May 17, 2026",
+    "caption": "",
+    "camera": "Canon EOS R50",
+    "lens": "RF50mm F1.8 STM",
+    "fstop": "ƒ/3.5",
+    "shutter": "1/250",
+    "iso": 100,
+    "flash": "Off",
+    "width": 3871,
+    "height": 5806,
+    "orientation": "portrait",
+    "highlight": "n",
+    "category": [
+      2
+    ]
+  },
+  {
+    "id": 55,
+    "fullSizeUrl": "images/grad-tree.jpg",
+    "thumbnailUrl": "/images/thumbnails/grad-tree.jpg",
+    "location": "Stanhope, NJ",
+    "date": "May 17, 2026",
+    "caption": "",
+    "camera": "Canon EOS R50",
+    "lens": "RF50mm F1.8 STM",
+    "fstop": "ƒ/2.8",
+    "shutter": "1/200",
+    "iso": 200,
+    "flash": "Off",
+    "width": 3644,
+    "height": 5466,
+    "orientation": "portrait",
+    "highlight": "n",
+    "category": [
+      2
+    ]
+  },
+  {
+    "id": 56,
+    "fullSizeUrl": "images/prom-cropped-date.jpg",
+    "thumbnailUrl": "/images/thumbnails/prom-cropped-date.jpg",
+    "location": "Sparta, NJ",
+    "date": "Apr 22, 2026",
+    "caption": "",
+    "camera": "Canon EOS R50",
+    "lens": "RF50mm F1.8 STM",
+    "fstop": "ƒ/3.2",
+    "shutter": "1/250",
+    "iso": 100,
+    "flash": "Off",
+    "width": 2111,
+    "height": 1583,
+    "orientation": "landscape",
+    "highlight": "y",
+    "category": [
+      2
+    ]
+  },
+  {
+    "id": 57,
+    "fullSizeUrl": "images/prom-date.jpg",
+    "thumbnailUrl": "/images/thumbnails/prom-date.jpg",
+    "location": "Sparta, NJ",
+    "date": "Apr 22, 2026",
+    "caption": "",
+    "camera": "Canon EOS R50",
+    "lens": "RF50mm F1.8 STM",
+    "fstop": "ƒ/3.2",
+    "shutter": "1/200",
+    "iso": 100,
+    "flash": "Off",
+    "width": 5860,
+    "height": 3907,
+    "orientation": "landscape",
+    "highlight": "n",
+    "category": [
+      2
+    ]
+  },
+  {
+    "id": 58,
+    "fullSizeUrl": "images/prom-full-dress.jpg",
+    "thumbnailUrl": "/images/thumbnails/prom-full-dress.jpg",
+    "location": "Sparta, NJ",
+    "date": "Apr 22, 2026",
+    "caption": "",
+    "camera": "Canon EOS R50",
+    "lens": "RF50mm F1.8 STM",
+    "fstop": "ƒ/2.8",
+    "shutter": "1/200",
+    "iso": 100,
+    "flash": "Off",
+    "width": 3769,
+    "height": 5653,
+    "orientation": "portrait",
+    "highlight": "y",
+    "category": [
+      2
+    ]
+  },
+  {
+    "id": 59,
+    "fullSizeUrl": "images/prom-portrait.jpg",
+    "thumbnailUrl": "/images/thumbnails/prom-portrait.jpg",
+    "location": "Sparta, NJ",
+    "date": "Apr 22, 2026",
+    "caption": "",
+    "camera": "Canon EOS R50",
+    "lens": "RF50mm F1.8 STM",
+    "fstop": "ƒ/3.2",
+    "shutter": "1/200",
+    "iso": 100,
+    "flash": "Off",
+    "width": 6000,
+    "height": 4000,
+    "orientation": "landscape",
+    "highlight": "n",
+    "category": [
+      2
+    ]
+  },
+  {
+    "id": 60,
+    "fullSizeUrl": "images/quinnipiac.jpg",
+    "thumbnailUrl": "/images/thumbnails/quinnipiac.jpg",
+    "location": "Stanhope, NJ",
+    "date": "May 17, 2026",
+    "caption": "",
+    "camera": "Canon EOS R50",
+    "lens": "RF50mm F1.8 STM",
+    "fstop": "ƒ/3.5",
+    "shutter": "1/250",
+    "iso": 100,
+    "flash": "Off",
+    "width": 6000,
+    "height": 4000,
+    "orientation": "landscape",
+    "highlight": "n",
+    "category": [
+      2
     ]
   }
 ]

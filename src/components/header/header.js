@@ -60,22 +60,22 @@ export default function Header({title}) {
             <Image 
                 src="/icons/z-logo-cam-whitebg.png" 
                 alt="logo"
-                width={50}
-                height={50}
+                width={35}
+                height={35}
                 className="rounded-full object-cover aspect-square"
               />
-            <h1 className="hidden text-3xl p-5 pr-[70px] lg:flex" style={{fontFamily: 'Trebuchet MS, sans-serif'}}>{title}</h1>
+            <h1 className="hidden text-3xl p-4 pr-[70px] lg:flex" style={{fontFamily: 'Trebuchet MS, sans-serif'}}>{title}</h1>
           </div>
-          <ul className="DESKTOP-MENU hidden space-x-5 lg:flex mr-[20px]">
+          <ul className="DESKTOP-MENU hidden space-x-5 lg:flex mr-[20px] items-center">
             <li>
-              <a href="/" className="mx-4 mr-2 text-2xl underline" style={{fontFamily: 'Trebuchet MS, sans-serif'}}>Home</a>
+              <a href="/" className="text-2xl underline" style={{fontFamily: 'Trebuchet MS, sans-serif'}}>Home</a>
             </li>
             <li>
-              <a href="/gallery" className="mx-4 mr-2 text-2xl underline" style={{fontFamily: 'Trebuchet MS, sans-serif'}}>Gallery</a>
+              <a href="/gallery" className="mx-4 mr-3 text-2xl underline" style={{fontFamily: 'Trebuchet MS, sans-serif'}}>Gallery</a>
             </li>
             <li>
               <a href="https://www.instagram.com/zizz.photography/" target="_blank">
-                  <img src="icons/instagram.png" width={35} height={35}/>
+                  <img src="icons/instagram.png" width={30} height={30}/>
               </a>
             </li>
           </ul>
