@@ -1,8 +1,8 @@
 [
   {
-    "id": 7,
+    "id": 1,
     "fullSizeUrl": "images/lantern.jpg",
-    "thumbnailUrl": "images/thumbnails/lantern.jpg",
+    "thumbnailUrl": "/images/thumbnails/lantern.jpg",
     "caption": "Lanterns floating on water",
     "camera": "Nikon D3500",
     "lens": "AF-P NIKKOR 70-300mm f/4.5-5.6E ED",
@@ -14,12 +14,14 @@
     "location": "Rochester, NY",
     "orientation": "portrait",
     "highlight": "y",
-    "category": []
+    "category": [],
+    "width": 585,
+    "height": 878
   },
   {
-    "id": 8,
+    "id": 2,
     "fullSizeUrl": "images/lantern2.jpg",
-    "thumbnailUrl": "images/thumbnails/lantern2.jpg",
+    "thumbnailUrl": "/images/thumbnails/lantern2.jpg",
     "caption": "Many lanterns floating on water",
     "camera": "Nikon D3500",
     "lens": "AF-P NIKKOR 70-300mm f/4.5-5.6E ED",
@@ -31,12 +33,14 @@
     "location": "Rochester, NY",
     "orientation": "portrait",
     "highlight": "n",
-    "category": []
+    "category": [],
+    "width": 585,
+    "height": 878
   },
   {
-    "id": 9,
+    "id": 3,
     "fullSizeUrl": "images/richie-ellie.jpg",
-    "thumbnailUrl": "images/thumbnails/richie-ellie.jpg",
+    "thumbnailUrl": "/images/thumbnails/richie-ellie.jpg",
     "caption": "Two friends hiking",
     "camera": "Canon EOS R50",
     "lens": "RF-S 55-210mm F/5-7.1 IS STM",
@@ -51,12 +55,14 @@
     "category": [
       2,
       3
-    ]
+    ],
+    "width": 1024,
+    "height": 683
   },
   {
-    "id": 10,
+    "id": 4,
     "fullSizeUrl": "images/tree-hugging.jpg",
-    "thumbnailUrl": "images/thumbnails/tree-hugging.jpg",
+    "thumbnailUrl": "/images/thumbnails/tree-hugging.jpg",
     "caption": "Tree hugging",
     "camera": "Canon EOS R50",
     "lens": "RF-S 55-210mm F/5-7.1 IS STM",
@@ -70,12 +76,14 @@
     "highlight": "n",
     "category": [
       3
-    ]
+    ],
+    "width": 683,
+    "height": 1024
   },
   {
-    "id": 11,
+    "id": 5,
     "fullSizeUrl": "images/lake.jpg",
-    "thumbnailUrl": "images/thumbnails/lake.jpg",
+    "thumbnailUrl": "/images/thumbnails/lake.jpg",
     "caption": "Reeds on a lake",
     "camera": "Canon EOS R50",
     "lens": "RF-S 55-210mm F/5-7.1 IS STM",
@@ -89,12 +97,14 @@
     "highlight": "n",
     "category": [
       3
-    ]
+    ],
+    "width": 1024,
+    "height": 683
   },
   {
-    "id": 12,
+    "id": 6,
     "fullSizeUrl": "images/richie.jpg",
-    "thumbnailUrl": "images/thumbnails/richie.jpg",
+    "thumbnailUrl": "/images/thumbnails/richie.jpg",
     "caption": "Out of focus person looking up",
     "camera": "Canon EOS R50",
     "lens": "RF-S 55-210mm F/5-7.1 IS STM",
@@ -108,12 +118,14 @@
     "highlight": "y",
     "category": [
       2
-    ]
+    ],
+    "width": 683,
+    "height": 1024
   },
   {
-    "id": 13,
+    "id": 7,
     "fullSizeUrl": "images/eagle1.jpg",
-    "thumbnailUrl": "images/thumbnails/eagle1.jpg",
+    "thumbnailUrl": "/images/thumbnails/eagle1.jpg",
     "caption": "Juvenile Bald Eagle",
     "camera": "Canon EOS R50",
     "lens": "RF-S 55-210mm F/5-7.1 IS STM",
@@ -127,12 +139,14 @@
     "highlight": "y",
     "category": [
       1
-    ]
+    ],
+    "width": 683,
+    "height": 1024
   },
   {
-    "id": 14,
+    "id": 8,
     "fullSizeUrl": "images/eagle2.jpg",
-    "thumbnailUrl": "images/thumbnails/eagle2.jpg",
+    "thumbnailUrl": "/images/thumbnails/eagle2.jpg",
     "caption": "Juvenile Bald Eagle",
     "camera": "Canon EOS R50",
     "lens": "RF-S 55-210mm F/5-7.1 IS STM",
@@ -146,12 +160,14 @@
     "highlight": "n",
     "category": [
       1
-    ]
+    ],
+    "width": 594,
+    "height": 907
   },
   {
-    "id": 15,
+    "id": 9,
     "fullSizeUrl": "images/big-tree.jpg",
-    "thumbnailUrl": "images/thumbnails/big-tree.jpg",
+    "thumbnailUrl": "/images/thumbnails/big-tree.jpg",
     "caption": "Large winding tree",
     "camera": "Canon EOS R50",
     "lens": "RF-S 55-210mm F/5-7.1 IS STM",
@@ -165,18 +181,20 @@
     "highlight": "n",
     "category": [
       3
-    ]
+    ],
+    "width": 683,
+    "height": 1024
   },
   {
-    "id": 16,
+    "id": 10,
     "fullSizeUrl": "images/chickadee1.JPG",
-    "thumbnailUrl": "images/thumbnails/chickadee1.JPG",
+    "thumbnailUrl": "/images/thumbnails/chickadee1.JPG",
     "caption": "Chickadee perched on a branch",
     "camera": "Canon EOS R50",
-    "lens": "RF-S 55-210mm F/5-7.1 IS STM",
+    "lens": "RF-S55-210mm F5-7.1 IS STM",
     "fstop": "ƒ/7.1",
     "shutter": "1/200",
-    "iso": "100",
+    "iso": 100,
     "flash": "Off",
     "date": "Apr 6, 2025",
     "location": "Mendon Ponds Park, NY",
@@ -184,18 +202,20 @@
     "highlight": "n",
     "category": [
       1
-    ]
+    ],
+    "width": 2048,
+    "height": 1365
   },
   {
-    "id": 17,
+    "id": 11,
     "fullSizeUrl": "images/chickadee2.JPG",
-    "thumbnailUrl": "images/thumbnails/chickadee2.JPG",
+    "thumbnailUrl": "/images/thumbnails/chickadee2.JPG",
     "caption": "Chickadee perched on a branch",
     "camera": "Canon EOS R50",
-    "lens": "RF-S 55-210mm F/5-7.1 IS STM",
+    "lens": "RF-S55-210mm F5-7.1 IS STM",
     "fstop": "ƒ/7.1",
     "shutter": "1/200",
-    "iso": "100",
+    "iso": 100,
     "flash": "Off",
     "date": "Apr 6, 2025",
     "location": "Mendon Ponds Park, NY",
@@ -203,12 +223,14 @@
     "highlight": "n",
     "category": [
       1
-    ]
+    ],
+    "width": 1365,
+    "height": 2048
   },
   {
-    "id": 18,
+    "id": 12,
     "fullSizeUrl": "images/chickadee3.jpg",
-    "thumbnailUrl": "images/thumbnails/chickadee3.jpg",
+    "thumbnailUrl": "/images/thumbnails/chickadee3.jpg",
     "caption": "Chickadee on top of a fairy house",
     "camera": "Canon EOS R50",
     "lens": "RF-S 55-210mm F/5-7.1 IS STM",
@@ -222,12 +244,14 @@
     "highlight": "y",
     "category": [
       1
-    ]
+    ],
+    "width": 683,
+    "height": 1024
   },
   {
-    "id": 19,
+    "id": 13,
     "fullSizeUrl": "images/chickadee4.jpg",
-    "thumbnailUrl": "images/thumbnails/chickadee4.jpg",
+    "thumbnailUrl": "/images/thumbnails/chickadee4.jpg",
     "caption": "Chickadee perched on a branch",
     "camera": "Canon EOS R50",
     "lens": "RF-S 55-210mm F/5-7.1 IS STM",
@@ -241,12 +265,14 @@
     "highlight": "n",
     "category": [
       1
-    ]
+    ],
+    "width": 1024,
+    "height": 683
   },
   {
-    "id": 20,
+    "id": 14,
     "fullSizeUrl": "images/trail-map.jpg",
-    "thumbnailUrl": "images/thumbnails/trail-map.jpg",
+    "thumbnailUrl": "/images/thumbnails/trail-map.jpg",
     "caption": "Trailhead",
     "camera": "Canon EOS R50",
     "lens": "RF-S 55-210mm F/5-7.1 IS STM",
@@ -260,12 +286,14 @@
     "highlight": "n",
     "category": [
       3
-    ]
+    ],
+    "width": 1024,
+    "height": 683
   },
   {
-    "id": 21,
+    "id": 15,
     "fullSizeUrl": "images/trailhead1.jpg",
-    "thumbnailUrl": "images/thumbnails/trailhead1.jpg",
+    "thumbnailUrl": "/images/thumbnails/trailhead1.jpg",
     "caption": "Two hikers at a trailhead",
     "camera": "Canon EOS R50",
     "lens": "RF-S 55-210mm F/5-7.1 IS STM",
@@ -280,12 +308,14 @@
     "category": [
       2,
       3
-    ]
+    ],
+    "width": 683,
+    "height": 1024
   },
   {
-    "id": 22,
+    "id": 16,
     "fullSizeUrl": "images/trailhead2.jpg",
-    "thumbnailUrl": "images/thumbnails/trailhead2.jpg",
+    "thumbnailUrl": "/images/thumbnails/trailhead2.jpg",
     "caption": "Two hikers at a trailhead",
     "camera": "Canon EOS R50",
     "lens": "RF-S 55-210mm F/5-7.1 IS STM",
@@ -300,12 +330,14 @@
     "category": [
       2,
       3
-    ]
+    ],
+    "width": 1024,
+    "height": 683
   },
   {
-    "id": 23,
+    "id": 17,
     "fullSizeUrl": "images/fairy-house.jpg",
-    "thumbnailUrl": "images/thumbnails/fairy-house.jpg",
+    "thumbnailUrl": "/images/thumbnails/fairy-house.jpg",
     "caption": "Fairy houses in the trees",
     "camera": "Canon EOS R50",
     "lens": "RF-S 55-210mm F/5-7.1 IS STM",
@@ -319,12 +351,14 @@
     "highlight": "n",
     "category": [
       3
-    ]
+    ],
+    "width": 1024,
+    "height": 683
   },
   {
-    "id": 24,
+    "id": 18,
     "fullSizeUrl": "images/cardinal.jpg",
-    "thumbnailUrl": "images/thumbnails/cardinal.jpg",
+    "thumbnailUrl": "/images/thumbnails/cardinal.jpg",
     "caption": "Cardinal perched on a branch",
     "camera": "Canon EOS R50",
     "lens": "RF-S 55-210mm F/5-7.1 IS STM",
@@ -338,12 +372,14 @@
     "highlight": "n",
     "category": [
       1
-    ]
+    ],
+    "width": 683,
+    "height": 1024
   },
   {
-    "id": 25,
+    "id": 19,
     "fullSizeUrl": "images/cardinal2.jpg",
-    "thumbnailUrl": "images/thumbnails/cardinal2.jpg",
+    "thumbnailUrl": "/images/thumbnails/cardinal2.jpg",
     "caption": "Cardinal perched on a branch",
     "camera": "Canon EOS R50",
     "lens": "RF-S 55-210mm F/5-7.1 IS STM",
@@ -357,12 +393,14 @@
     "highlight": "n",
     "category": [
       1
-    ]
+    ],
+    "width": 683,
+    "height": 1024
   },
   {
-    "id": 26,
+    "id": 20,
     "fullSizeUrl": "images/look-up.jpg",
-    "thumbnailUrl": "images/thumbnails/look-up.jpg",
+    "thumbnailUrl": "/images/thumbnails/look-up.jpg",
     "caption": "Trailhead that says \"Look up\"",
     "camera": "Canon EOS R50",
     "lens": "RF-S 55-210mm F/5-7.1 IS STM",
@@ -376,18 +414,20 @@
     "highlight": "n",
     "category": [
       3
-    ]
+    ],
+    "width": 1024,
+    "height": 683
   },
   {
-    "id": 27,
+    "id": 21,
     "fullSizeUrl": "images/cherry-blossom.jpg",
-    "thumbnailUrl": "images/thumbnails/cherry-blossom.jpg",
+    "thumbnailUrl": "/images/thumbnails/cherry-blossom.jpg",
     "caption": "Cherry blossom tree overhanging a lake",
     "camera": "Canon EOS R50",
-    "lens": "RF-S 55-210mm F/5-7.1 IS STM",
-    "fstop": "ƒ/5.0",
+    "lens": "RF-S55-210mm F5-7.1 IS STM",
+    "fstop": "ƒ/5",
     "shutter": "1/200",
-    "iso": "250",
+    "iso": 250,
     "flash": "Off",
     "date": "Apr 25, 2025",
     "location": "Powder Mills Park, NY",
@@ -395,12 +435,14 @@
     "highlight": "n",
     "category": [
       3
-    ]
+    ],
+    "width": 1365,
+    "height": 2048
   },
   {
-    "id": 28,
+    "id": 22,
     "fullSizeUrl": "images/evan-amber1.jpg",
-    "thumbnailUrl": "images/thumbnails/evan-amber1.jpg",
+    "thumbnailUrl": "/images/thumbnails/evan-amber1.jpg",
     "caption": "Two college graduates holding diplomas",
     "camera": "Canon EOS R50",
     "lens": "RF-S 55-210mm F/5-7.1 IS STM",
@@ -409,17 +451,19 @@
     "iso": "100",
     "flash": "Off",
     "date": "May 13, 2025",
-    "location": "Rochester, NY",
+    "location": "Rochester Institute of Technology, NY",
     "orientation": "landscape",
     "highlight": "y",
     "category": [
       2
-    ]
+    ],
+    "width": 6000,
+    "height": 4000
   },
   {
-    "id": 29,
+    "id": 23,
     "fullSizeUrl": "images/evan-amber2.jpg",
-    "thumbnailUrl": "images/thumbnails/evan-amber2.jpg",
+    "thumbnailUrl": "/images/thumbnails/evan-amber2.jpg",
     "caption": "Two college graduates holding caps",
     "camera": "Canon EOS R50",
     "lens": "RF-S 55-210mm F/5-7.1 IS STM",
@@ -428,36 +472,19 @@
     "iso": "100",
     "flash": "Off",
     "date": "May 13, 2025",
-    "location": "Rochester, NY",
+    "location": "Rochester Institute of Technology, NY",
     "orientation": "portrait",
     "highlight": "n",
     "category": [
       2
-    ]
+    ],
+    "width": 3159,
+    "height": 4739
   },
   {
-    "id": 30,
-    "fullSizeUrl": "images/evan-amber3.jpg",
-    "thumbnailUrl": "images/thumbnails/evan-amber3.jpg",
-    "caption": "Two college graduates holding diplomas",
-    "camera": "Canon EOS R50",
-    "lens": "RF-S 55-210mm F/5-7.1 IS STM",
-    "fstop": "ƒ/8.0",
-    "shutter": "1/160",
-    "iso": "100",
-    "flash": "Off",
-    "date": "May 13, 2025",
-    "location": "Rochester, NY",
-    "orientation": "portrait",
-    "highlight": "n",
-    "category": [
-      2
-    ]
-  },
-  {
-    "id": 31,
+    "id": 24,
     "fullSizeUrl": "images/rebecca-amber.jpg",
-    "thumbnailUrl": "images/thumbnails/rebecca-amber.jpg",
+    "thumbnailUrl": "/images/thumbnails/rebecca-amber.jpg",
     "caption": "College graduate with friend",
     "camera": "Canon EOS R50",
     "lens": "RF-S 55-210mm F/5-7.1 IS STM",
@@ -471,12 +498,14 @@
     "highlight": "n",
     "category": [
       2
-    ]
+    ],
+    "width": 683,
+    "height": 1024
   },
   {
-    "id": 32,
+    "id": 25,
     "fullSizeUrl": "images/rebecca-amber-2.jpg",
-    "thumbnailUrl": "images/thumbnails/rebecca-amber-2.jpg",
+    "thumbnailUrl": "/images/thumbnails/rebecca-amber-2.jpg",
     "caption": "College graduate with friend",
     "camera": "Canon EOS R50",
     "lens": "RF-S 55-210mm F/5-7.1 IS STM",
@@ -490,12 +519,14 @@
     "highlight": "y",
     "category": [
       2
-    ]
+    ],
+    "width": 683,
+    "height": 1024
   },
   {
-    "id": 33,
+    "id": 26,
     "fullSizeUrl": "images/jellyfish-1.jpg",
-    "thumbnailUrl": "images/thumbnails/jellyfish-1.jpg",
+    "thumbnailUrl": "/images/thumbnails/jellyfish-1.jpg",
     "location": "New York Aquarium",
     "date": "July 26, 2025",
     "caption": "Jellyfish",
@@ -514,9 +545,9 @@
     ]
   },
   {
-    "id": 34,
+    "id": 27,
     "fullSizeUrl": "images/jellyfish2.jpg",
-    "thumbnailUrl": "images/thumbnails/jellyfish2.jpg",
+    "thumbnailUrl": "/images/thumbnails/jellyfish2.jpg",
     "location": "New York Aquarium",
     "date": "July 26, 2025",
     "caption": "Jellyfish",
@@ -535,9 +566,9 @@
     ]
   },
   {
-    "id": 35,
+    "id": 28,
     "fullSizeUrl": "images/sea-otter.jpg",
-    "thumbnailUrl": "images/thumbnails/sea-otter.jpg",
+    "thumbnailUrl": "/images/thumbnails/sea-otter.jpg",
     "location": "New York Aquarium",
     "date": "July 26, 2025",
     "caption": "Sea otter playing",
@@ -556,9 +587,9 @@
     ]
   },
   {
-    "id": 36,
+    "id": 29,
     "fullSizeUrl": "images/shark-tunnel.jpg",
-    "thumbnailUrl": "images/thumbnails/shark-tunnel.jpg",
+    "thumbnailUrl": "/images/thumbnails/shark-tunnel.jpg",
     "location": "New York Aquarium",
     "date": "July 26, 2025",
     "caption": "Aquarium tunnel",
@@ -577,9 +608,9 @@
     ]
   },
   {
-    "id": 37,
+    "id": 30,
     "fullSizeUrl": "images/shark.jpg",
-    "thumbnailUrl": "images/thumbnails/shark.jpg",
+    "thumbnailUrl": "/images/thumbnails/shark.jpg",
     "location": "New York Aquarium",
     "date": "July 26, 2025",
     "caption": "Zebra shark",
@@ -598,9 +629,9 @@
     ]
   },
   {
-    "id": 38,
+    "id": 31,
     "fullSizeUrl": "images/sting-ray.jpg",
-    "thumbnailUrl": "images/thumbnails/sting-ray.jpg",
+    "thumbnailUrl": "/images/thumbnails/sting-ray.jpg",
     "location": "New York Aquarium",
     "date": "July 26, 2025",
     "caption": "Sting ray",
@@ -619,7 +650,7 @@
     ]
   },
   {
-    "id": 39,
+    "id": 32,
     "fullSizeUrl": "images/boardwalk-forest.jpg",
     "thumbnailUrl": "/images/thumbnails/boardwalk-forest.jpg",
     "location": "Mendon Ponds Park, NY",
@@ -640,7 +671,7 @@
     ]
   },
   {
-    "id": 40,
+    "id": 33,
     "fullSizeUrl": "images/woodpecker.jpg",
     "thumbnailUrl": "/images/thumbnails/woodpecker.jpg",
     "location": "Mendon Ponds Park, NY",
@@ -662,7 +693,7 @@
     ]
   },
   {
-    "id": 41,
+    "id": 34,
     "fullSizeUrl": "images/tree-arch.jpg",
     "thumbnailUrl": "/images/thumbnails/tree-arch.jpg",
     "location": "Mendon Ponds Park, NY",
@@ -683,7 +714,7 @@
     ]
   },
   {
-    "id": 42,
+    "id": 35,
     "fullSizeUrl": "images/vines.jpg",
     "thumbnailUrl": "/images/thumbnails/vines.jpg",
     "location": "Mendon Ponds Park, NY",
@@ -704,112 +735,7 @@
     ]
   },
   {
-    "id": 43,
-    "fullSizeUrl": "images/fall-trees.jpg",
-    "thumbnailUrl": "/images/thumbnails/fall-trees.jpg",
-    "location": "Rochester Institute of Technology, NY",
-    "date": "Sep 29, 2025",
-    "caption": "",
-    "camera": "Canon EOS R50",
-    "lens": "RF-S55-210mm F5-7.1 IS STM",
-    "fstop": "ƒ/5",
-    "shutter": "1/1600",
-    "iso": 800,
-    "flash": "Off",
-    "width": 6000,
-    "height": 4000,
-    "orientation": "landscape",
-    "highlight": "y",
-    "category": [
-      3
-    ]
-  },
-  {
-    "id": 44,
-    "fullSizeUrl": "images/forest-path.jpg",
-    "thumbnailUrl": "/images/thumbnails/forest-path.jpg",
-    "location": "Rochester Institute of Technology, NY",
-    "date": "Sep 29, 2025",
-    "caption": "",
-    "camera": "Canon EOS R50",
-    "lens": "RF-S55-210mm F5-7.1 IS STM",
-    "fstop": "ƒ/5",
-    "shutter": "1/60",
-    "iso": 800,
-    "flash": "Off",
-    "width": 6000,
-    "height": 4000,
-    "orientation": "landscape",
-    "highlight": "y",
-    "category": [
-      3
-    ]
-  },
-  {
-    "id": 45,
-    "fullSizeUrl": "images/hill.jpg",
-    "thumbnailUrl": "/images/thumbnails/hill.jpg",
-    "location": "Rochester Institute of Technology, NY",
-    "date": "Sep 29, 2025",
-    "caption": "",
-    "camera": "Canon EOS R50",
-    "lens": "RF-S55-210mm F5-7.1 IS STM",
-    "fstop": "ƒ/9",
-    "shutter": "1/500",
-    "iso": 800,
-    "flash": "Off",
-    "width": 4000,
-    "height": 6000,
-    "orientation": "portrait",
-    "highlight": "y",
-    "category": [
-      3
-    ]
-  },
-  {
-    "id": 46,
-    "fullSizeUrl": "images/leaves.jpg",
-    "thumbnailUrl": "/images/thumbnails/leaves.jpg",
-    "location": "Rochester Institute of Technology, NY",
-    "date": "Sep 29, 2025",
-    "caption": "",
-    "camera": "Canon EOS R50",
-    "lens": "RF-S55-210mm F5-7.1 IS STM",
-    "fstop": "ƒ/7.1",
-    "shutter": "1/100",
-    "iso": 800,
-    "flash": "Off",
-    "width": 6000,
-    "height": 4000,
-    "orientation": "landscape",
-    "highlight": "y",
-    "category": [
-      3
-    ]
-  },
-  {
-    "id": 47,
-    "fullSizeUrl": "images/sun-through-trees.jpg",
-    "thumbnailUrl": "/images/thumbnails/sun-through-trees.jpg",
-    "location": "Rochester Institute of Technology, NY",
-    "date": "Sep 29, 2025",
-    "caption": "",
-    "camera": "Canon EOS R50",
-    "lens": "RF-S55-210mm F5-7.1 IS STM",
-    "fstop": "ƒ/6.3",
-    "shutter": "1/500",
-    "iso": 800,
-    "flash": "Off",
-    "width": 3256,
-    "height": 4884,
-    "orientation": "portrait",
-    "highlight": "n",
-    "category": [
-      3
-    ]
-  },
-  {
-    "id": 48,
+    "id": 36,
     "fullSizeUrl": "images/willow.jpg",
     "thumbnailUrl": "/images/thumbnails/willow.jpg",
     "location": "Rochester Institute of Technology, NY",
@@ -830,154 +756,199 @@
     ]
   },
   {
-    "id": 49,
-    "fullSizeUrl": "images/grad-cap-backward.jpg",
-    "thumbnailUrl": "/images/thumbnails/grad-cap-backward.jpg",
-    "location": "Stanhope, NJ",
-    "date": "May 17, 2026",
+    "id": 37,
+    "fullSizeUrl": "images/fall-trees.jpg",
+    "thumbnailUrl": "/images/thumbnails/fall-trees.jpg",
+    "location": "Rochester Institute of Technology, NY",
+    "date": "Sep 29, 2025",
     "caption": "",
     "camera": "Canon EOS R50",
-    "lens": "RF50mm F1.8 STM",
-    "fstop": "ƒ/4",
-    "shutter": "1/320",
-    "iso": 100,
-    "flash": "Off",
-    "width": 3946,
-    "height": 5919,
-    "orientation": "portrait",
-    "highlight": "n",
-    "category": [
-      2
-    ]
-  },
-  {
-    "id": 50,
-    "fullSizeUrl": "images/grad-cap-toss.jpg",
-    "thumbnailUrl": "/images/thumbnails/grad-cap-toss.jpg",
-    "location": "Stanhope, NJ",
-    "date": "May 17, 2026",
-    "caption": "",
-    "camera": "Canon EOS R50",
-    "lens": "RF50mm F1.8 STM",
-    "fstop": "ƒ/4",
-    "shutter": "1/320",
-    "iso": 100,
-    "flash": "Off",
-    "width": 4000,
-    "height": 6000,
-    "orientation": "portrait",
-    "highlight": "y",
-    "category": [
-      2
-    ]
-  },
-  {
-    "id": 51,
-    "fullSizeUrl": "images/grad-crouch.jpg",
-    "thumbnailUrl": "/images/thumbnails/grad-crouch.jpg",
-    "location": "Stanhope, NJ",
-    "date": "May 17, 2026",
-    "caption": "",
-    "camera": "Canon EOS R50",
-    "lens": "RF50mm F1.8 STM",
-    "fstop": "ƒ/3.2",
-    "shutter": "1/200",
-    "iso": 100,
-    "flash": "Off",
-    "width": 4000,
-    "height": 6000,
-    "orientation": "portrait",
-    "highlight": "y",
-    "category": [
-      2
-    ]
-  },
-  {
-    "id": 52,
-    "fullSizeUrl": "images/grad-off-shoulder.jpg",
-    "thumbnailUrl": "/images/thumbnails/grad-off-shoulder.jpg",
-    "location": "Stanhope, NJ",
-    "date": "May 17, 2026",
-    "caption": "",
-    "camera": "Canon EOS R50",
-    "lens": "RF50mm F1.8 STM",
-    "fstop": "ƒ/3.2",
-    "shutter": "1/200",
-    "iso": 100,
+    "lens": "RF-S55-210mm F5-7.1 IS STM",
+    "fstop": "ƒ/5",
+    "shutter": "1/1600",
+    "iso": 800,
     "flash": "Off",
     "width": 6000,
     "height": 4000,
     "orientation": "landscape",
     "highlight": "y",
     "category": [
-      2
+      3
     ]
   },
   {
-    "id": 53,
-    "fullSizeUrl": "images/grad-over-shoulder.jpg",
-    "thumbnailUrl": "/images/thumbnails/grad-over-shoulder.jpg",
-    "location": "Stanhope, NJ",
-    "date": "May 17, 2026",
+    "id": 38,
+    "fullSizeUrl": "images/forest-path.jpg",
+    "thumbnailUrl": "/images/thumbnails/forest-path.jpg",
+    "location": "Rochester Institute of Technology, NY",
+    "date": "Sep 29, 2025",
     "caption": "",
     "camera": "Canon EOS R50",
-    "lens": "RF50mm F1.8 STM",
-    "fstop": "ƒ/3.2",
-    "shutter": "1/200",
-    "iso": 100,
+    "lens": "RF-S55-210mm F5-7.1 IS STM",
+    "fstop": "ƒ/5",
+    "shutter": "1/60",
+    "iso": 800,
+    "flash": "Off",
+    "width": 6000,
+    "height": 4000,
+    "orientation": "landscape",
+    "highlight": "y",
+    "category": [
+      3
+    ]
+  },
+  {
+    "id": 39,
+    "fullSizeUrl": "images/hill.jpg",
+    "thumbnailUrl": "/images/thumbnails/hill.jpg",
+    "location": "Rochester Institute of Technology, NY",
+    "date": "Sep 29, 2025",
+    "caption": "",
+    "camera": "Canon EOS R50",
+    "lens": "RF-S55-210mm F5-7.1 IS STM",
+    "fstop": "ƒ/9",
+    "shutter": "1/500",
+    "iso": 800,
     "flash": "Off",
     "width": 4000,
     "height": 6000,
     "orientation": "portrait",
-    "highlight": "n",
+    "highlight": "y",
     "category": [
-      2
+      3
     ]
   },
   {
-    "id": 54,
-    "fullSizeUrl": "images/grad-plushie.jpg",
-    "thumbnailUrl": "/images/thumbnails/grad-plushie.jpg",
-    "location": "Stanhope, NJ",
-    "date": "May 17, 2026",
+    "id": 40,
+    "fullSizeUrl": "images/leaves.jpg",
+    "thumbnailUrl": "/images/thumbnails/leaves.jpg",
+    "location": "Rochester Institute of Technology, NY",
+    "date": "Sep 29, 2025",
     "caption": "",
     "camera": "Canon EOS R50",
-    "lens": "RF50mm F1.8 STM",
-    "fstop": "ƒ/3.5",
-    "shutter": "1/250",
-    "iso": 100,
+    "lens": "RF-S55-210mm F5-7.1 IS STM",
+    "fstop": "ƒ/7.1",
+    "shutter": "1/100",
+    "iso": 800,
     "flash": "Off",
-    "width": 3871,
-    "height": 5806,
+    "width": 6000,
+    "height": 4000,
+    "orientation": "landscape",
+    "highlight": "y",
+    "category": [
+      3
+    ]
+  },
+  {
+    "id": 41,
+    "fullSizeUrl": "images/sun-through-trees.jpg",
+    "thumbnailUrl": "/images/thumbnails/sun-through-trees.jpg",
+    "location": "Rochester Institute of Technology, NY",
+    "date": "Sep 29, 2025",
+    "caption": "",
+    "camera": "Canon EOS R50",
+    "lens": "RF-S55-210mm F5-7.1 IS STM",
+    "fstop": "ƒ/6.3",
+    "shutter": "1/500",
+    "iso": 800,
+    "flash": "Off",
+    "width": 3256,
+    "height": 4884,
     "orientation": "portrait",
     "highlight": "n",
     "category": [
-      2
+      3
     ]
   },
   {
-    "id": 55,
-    "fullSizeUrl": "images/grad-tree.jpg",
-    "thumbnailUrl": "/images/thumbnails/grad-tree.jpg",
-    "location": "Stanhope, NJ",
-    "date": "May 17, 2026",
+    "id": 42,
+    "fullSizeUrl": "images/jetski.jpg",
+    "thumbnailUrl": "/images/thumbnails/jetski.jpg",
+    "location": "Marco Island, FL",
+    "date": "Nov 8, 2025",
+    "caption": "",
+    "camera": "Canon EOS R50",
+    "lens": "RF-S55-210mm F5-7.1 IS STM",
+    "fstop": "ƒ/7.1",
+    "shutter": "1/1600",
+    "iso": 100,
+    "flash": "Off",
+    "width": 3640,
+    "height": 5460,
+    "orientation": "portrait",
+    "highlight": "n",
+    "category": [
+      3
+    ]
+  },
+  {
+    "id": 43,
+    "fullSizeUrl": "images/letchworth-dana.jpg",
+    "thumbnailUrl": "/images/thumbnails/letchworth-dana.jpg",
+    "location": "Letchworth State Park, NY",
+    "date": "Dec 14, 2025",
+    "caption": "",
+    "camera": "Canon EOS R50",
+    "lens": "RF50mm F1.8 STM",
+    "fstop": "ƒ/5",
+    "shutter": "1/500",
+    "iso": 100,
+    "flash": "Off",
+    "width": 4916,
+    "height": 3277,
+    "orientation": "landscape",
+    "highlight": "n",
+    "category": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": 44,
+    "fullSizeUrl": "images/letchworth-richie-ellie.jpg",
+    "thumbnailUrl": "/images/thumbnails/letchworth-richie-ellie.jpg",
+    "location": "Letchworth State Park, NY",
+    "date": "Dec 14, 2025",
     "caption": "",
     "camera": "Canon EOS R50",
     "lens": "RF50mm F1.8 STM",
     "fstop": "ƒ/2.8",
-    "shutter": "1/200",
-    "iso": 200,
+    "shutter": "1/1250",
+    "iso": 100,
     "flash": "Off",
-    "width": 3644,
-    "height": 5466,
-    "orientation": "portrait",
+    "width": 6000,
+    "height": 4000,
+    "orientation": "landscape",
     "highlight": "n",
     "category": [
-      2
+      2,
+      3
     ]
   },
   {
-    "id": 56,
+    "id": 45,
+    "fullSizeUrl": "images/letchworth-richie.jpg",
+    "thumbnailUrl": "/images/thumbnails/letchworth-richie.jpg",
+    "location": "Letchworth State Park, NY",
+    "date": "Dec 14, 2025",
+    "caption": "",
+    "camera": "Canon EOS R50",
+    "lens": "RF50mm F1.8 STM",
+    "fstop": "ƒ/5",
+    "shutter": "1/500",
+    "iso": 100,
+    "flash": "Off",
+    "width": 5353,
+    "height": 3569,
+    "orientation": "landscape",
+    "highlight": "y",
+    "category": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": 46,
     "fullSizeUrl": "images/prom-cropped-date.jpg",
     "thumbnailUrl": "/images/thumbnails/prom-cropped-date.jpg",
     "location": "Sparta, NJ",
@@ -998,7 +969,7 @@
     ]
   },
   {
-    "id": 57,
+    "id": 47,
     "fullSizeUrl": "images/prom-date.jpg",
     "thumbnailUrl": "/images/thumbnails/prom-date.jpg",
     "location": "Sparta, NJ",
@@ -1019,7 +990,7 @@
     ]
   },
   {
-    "id": 58,
+    "id": 48,
     "fullSizeUrl": "images/prom-full-dress.jpg",
     "thumbnailUrl": "/images/thumbnails/prom-full-dress.jpg",
     "location": "Sparta, NJ",
@@ -1040,7 +1011,7 @@
     ]
   },
   {
-    "id": 59,
+    "id": 49,
     "fullSizeUrl": "images/prom-portrait.jpg",
     "thumbnailUrl": "/images/thumbnails/prom-portrait.jpg",
     "location": "Sparta, NJ",
@@ -1061,7 +1032,154 @@
     ]
   },
   {
-    "id": 60,
+    "id": 50,
+    "fullSizeUrl": "images/grad-cap-backward.jpg",
+    "thumbnailUrl": "/images/thumbnails/grad-cap-backward.jpg",
+    "location": "Stanhope, NJ",
+    "date": "May 17, 2026",
+    "caption": "",
+    "camera": "Canon EOS R50",
+    "lens": "RF50mm F1.8 STM",
+    "fstop": "ƒ/4",
+    "shutter": "1/320",
+    "iso": 100,
+    "flash": "Off",
+    "width": 3946,
+    "height": 5919,
+    "orientation": "portrait",
+    "highlight": "n",
+    "category": [
+      2
+    ]
+  },
+  {
+    "id": 51,
+    "fullSizeUrl": "images/grad-cap-toss.jpg",
+    "thumbnailUrl": "/images/thumbnails/grad-cap-toss.jpg",
+    "location": "Stanhope, NJ",
+    "date": "May 17, 2026",
+    "caption": "",
+    "camera": "Canon EOS R50",
+    "lens": "RF50mm F1.8 STM",
+    "fstop": "ƒ/4",
+    "shutter": "1/320",
+    "iso": 100,
+    "flash": "Off",
+    "width": 4000,
+    "height": 6000,
+    "orientation": "portrait",
+    "highlight": "y",
+    "category": [
+      2
+    ]
+  },
+  {
+    "id": 52,
+    "fullSizeUrl": "images/grad-crouch.jpg",
+    "thumbnailUrl": "/images/thumbnails/grad-crouch.jpg",
+    "location": "Stanhope, NJ",
+    "date": "May 17, 2026",
+    "caption": "",
+    "camera": "Canon EOS R50",
+    "lens": "RF50mm F1.8 STM",
+    "fstop": "ƒ/3.2",
+    "shutter": "1/200",
+    "iso": 100,
+    "flash": "Off",
+    "width": 4000,
+    "height": 6000,
+    "orientation": "portrait",
+    "highlight": "y",
+    "category": [
+      2
+    ]
+  },
+  {
+    "id": 53,
+    "fullSizeUrl": "images/grad-off-shoulder.jpg",
+    "thumbnailUrl": "/images/thumbnails/grad-off-shoulder.jpg",
+    "location": "Stanhope, NJ",
+    "date": "May 17, 2026",
+    "caption": "",
+    "camera": "Canon EOS R50",
+    "lens": "RF50mm F1.8 STM",
+    "fstop": "ƒ/3.2",
+    "shutter": "1/200",
+    "iso": 100,
+    "flash": "Off",
+    "width": 6000,
+    "height": 4000,
+    "orientation": "landscape",
+    "highlight": "y",
+    "category": [
+      2
+    ]
+  },
+  {
+    "id": 54,
+    "fullSizeUrl": "images/grad-over-shoulder.jpg",
+    "thumbnailUrl": "/images/thumbnails/grad-over-shoulder.jpg",
+    "location": "Stanhope, NJ",
+    "date": "May 17, 2026",
+    "caption": "",
+    "camera": "Canon EOS R50",
+    "lens": "RF50mm F1.8 STM",
+    "fstop": "ƒ/3.2",
+    "shutter": "1/200",
+    "iso": 100,
+    "flash": "Off",
+    "width": 4000,
+    "height": 6000,
+    "orientation": "portrait",
+    "highlight": "n",
+    "category": [
+      2
+    ]
+  },
+  {
+    "id": 55,
+    "fullSizeUrl": "images/grad-plushie.jpg",
+    "thumbnailUrl": "/images/thumbnails/grad-plushie.jpg",
+    "location": "Stanhope, NJ",
+    "date": "May 17, 2026",
+    "caption": "",
+    "camera": "Canon EOS R50",
+    "lens": "RF50mm F1.8 STM",
+    "fstop": "ƒ/3.5",
+    "shutter": "1/250",
+    "iso": 100,
+    "flash": "Off",
+    "width": 3871,
+    "height": 5806,
+    "orientation": "portrait",
+    "highlight": "n",
+    "category": [
+      2
+    ]
+  },
+  {
+    "id": 56,
+    "fullSizeUrl": "images/grad-tree.jpg",
+    "thumbnailUrl": "/images/thumbnails/grad-tree.jpg",
+    "location": "Stanhope, NJ",
+    "date": "May 17, 2026",
+    "caption": "",
+    "camera": "Canon EOS R50",
+    "lens": "RF50mm F1.8 STM",
+    "fstop": "ƒ/2.8",
+    "shutter": "1/200",
+    "iso": 200,
+    "flash": "Off",
+    "width": 3644,
+    "height": 5466,
+    "orientation": "portrait",
+    "highlight": "n",
+    "category": [
+      2
+    ]
+  },
+  {
+    "id": 57,
     "fullSizeUrl": "images/quinnipiac.jpg",
     "thumbnailUrl": "/images/thumbnails/quinnipiac.jpg",
     "location": "Stanhope, NJ",
@@ -1079,6 +1197,177 @@
     "highlight": "n",
     "category": [
       2
+    ]
+  },
+  {
+    "id": 58,
+    "fullSizeUrl": "images/end-school-zone.jpg",
+    "thumbnailUrl": "/images/thumbnails/end-school-zone.jpg",
+    "location": "Stanhope, NJ",
+    "date": "June 5, 2026",
+    "caption": "",
+    "camera": "Canon EOS R50",
+    "lens": "RF50mm F1.8 STM",
+    "fstop": "ƒ/5",
+    "shutter": "1/500",
+    "iso": 100,
+    "flash": "Off",
+    "width": 3915,
+    "height": 5873,
+    "orientation": "portrait",
+    "highlight": "y",
+    "category": [
+      2
+    ]
+  },
+  {
+    "id": 59,
+    "fullSizeUrl": "images/boardwalk.jpg",
+    "thumbnailUrl": "/images/thumbnails/boardwalk.jpg",
+    "location": "Turning Point Park, NY",
+    "date": "June 27, 2026",
+    "caption": "",
+    "camera": "Canon EOS R50",
+    "lens": "RF50mm F1.8 STM",
+    "fstop": "ƒ/3.2",
+    "shutter": "1/1600",
+    "iso": 100,
+    "flash": "Off",
+    "width": 3681,
+    "height": 5522,
+    "orientation": "portrait",
+    "highlight": "n",
+    "category": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": 60,
+    "fullSizeUrl": "images/swallow_1.jpg",
+    "thumbnailUrl": "/images/thumbnails/swallow_1.jpg",
+    "location": "Turning Point Park, NY",
+    "date": "June 27, 2026",
+    "caption": "",
+    "camera": "Canon EOS R50",
+    "lens": "RF-S55-210mm F5-7.1 IS STM",
+    "fstop": "ƒ/7.1",
+    "shutter": "1/1250",
+    "iso": 200,
+    "flash": "Off",
+    "width": 2738,
+    "height": 1825,
+    "orientation": "landscape",
+    "highlight": "n",
+    "category": [
+      1
+    ]
+  },
+  {
+    "id": 61,
+    "fullSizeUrl": "images/swallow_2.jpg",
+    "thumbnailUrl": "/images/thumbnails/swallow_2.jpg",
+    "location": "Turning Point Park, NY",
+    "date": "June 27, 2026",
+    "caption": "",
+    "camera": "Canon EOS R50",
+    "lens": "RF-S55-210mm F5-7.1 IS STM",
+    "fstop": "ƒ/8",
+    "shutter": "1/500",
+    "iso": 100,
+    "flash": "Off",
+    "width": 3082,
+    "height": 4623,
+    "orientation": "portrait",
+    "highlight": "n",
+    "category": [
+      1
+    ]
+  },
+  {
+    "id": 62,
+    "fullSizeUrl": "images/walking_trail.jpg",
+    "thumbnailUrl": "/images/thumbnails/walking_trail.jpg",
+    "location": "Turning Point Park, NY",
+    "date": "June 27, 2026",
+    "caption": "",
+    "camera": "Canon EOS R50",
+    "lens": "RF50mm F1.8 STM",
+    "fstop": "ƒ/4",
+    "shutter": "1/200",
+    "iso": 200,
+    "flash": "Off",
+    "width": 3560,
+    "height": 5340,
+    "orientation": "portrait",
+    "highlight": "n",
+    "category": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": 63,
+    "fullSizeUrl": "images/glen_waterfall.jpg",
+    "thumbnailUrl": "/images/thumbnails/glen_waterfall.jpg",
+    "location": "Watkins Glen State Park, NY",
+    "date": "June 28, 2026",
+    "caption": "",
+    "camera": "Canon EOS R50",
+    "lens": "RF50mm F1.8 STM",
+    "fstop": "ƒ/4.5",
+    "shutter": "1/200",
+    "iso": 200,
+    "flash": "Off",
+    "width": 4000,
+    "height": 6000,
+    "orientation": "portrait",
+    "highlight": "y",
+    "category": [
+      3
+    ]
+  },
+  {
+    "id": 64,
+    "fullSizeUrl": "images/richie_glen.jpg",
+    "thumbnailUrl": "/images/thumbnails/richie_glen.jpg",
+    "location": "Watkins Glen State Park, NY",
+    "date": "June 28, 2026",
+    "caption": "",
+    "camera": "Canon EOS R50",
+    "lens": "RF50mm F1.8 STM",
+    "fstop": "ƒ/2.8",
+    "shutter": "1/320",
+    "iso": 800,
+    "flash": "Off",
+    "width": 6000,
+    "height": 4000,
+    "orientation": "landscape",
+    "highlight": "y",
+    "category": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": 65,
+    "fullSizeUrl": "images/waterfall_bridge.jpg",
+    "thumbnailUrl": "/images/thumbnails/waterfall_bridge.jpg",
+    "location": "Watkins Glen State Park, NY",
+    "date": "June 28, 2026",
+    "caption": "",
+    "camera": "Canon EOS R50",
+    "lens": "RF50mm F1.8 STM",
+    "fstop": "ƒ/2.8",
+    "shutter": "1/320",
+    "iso": 800,
+    "flash": "Off",
+    "width": 3743,
+    "height": 5615,
+    "orientation": "portrait",
+    "highlight": "n",
+    "category": [
+      3
     ]
   }
 ]

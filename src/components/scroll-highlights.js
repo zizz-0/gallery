@@ -17,7 +17,7 @@ export default function ScrollHighlights({ photos }) {
               src={photo.fullSizeUrl}
               alt={photo.caption}
               className={`w-full h-full border-solid border-3 ${
-                photo.fullSizeUrl.startsWith("images/prom")
+                photo.fullSizeUrl.startsWith("images/prom") || photo.fullSizeUrl.startsWith("images/letchworth")
                   ? "object-cover object-top"
                   : "object-cover"
               }`}

@@ -68,8 +68,25 @@ function formatExifDate(dateInput) {
 
     if (fullSizeUrl == `images/me.jpg`) continue;
 
-    const existing = existingPhotos.find((p) => p.fullSizeUrl === fullSizeUrl);
-    if (existing) continue;
+    const existingIndex = photoData.findIndex((p) => p.fullSizeUrl === fullSizeUrl);
+    if (existingIndex >= 0) {
+      photoData[existingIndex] = {
+        ...photoData[existingIndex],
+        fullSizeUrl,
+        thumbnailUrl: `/images/thumbnails/${file}`,
+        date: formattedDate || photoData[existingIndex].date,
+        camera: metadata.Model || photoData[existingIndex].camera || "",
+        lens: metadata.Lens || metadata.LensModel || photoData[existingIndex].lens || "",
+        fstop: metadata.FNumber ? `ƒ/${metadata.FNumber}` : photoData[existingIndex].fstop || "",
+        shutter: metadata.ShutterSpeed || metadata.ExposureTime || photoData[existingIndex].shutter || "",
+        iso: metadata.ISO || photoData[existingIndex].iso || "",
+        flash: (metadata.Flash?.includes("Fired") ? "On" : "Off") || photoData[existingIndex].flash || "",
+        width: width || photoData[existingIndex].width,
+        height: height || photoData[existingIndex].height,
+        orientation: orientation || photoData[existingIndex].orientation,
+      };
+      continue;
+    }
 
     let location = await userInput(`Enter location for ${file}: `);
     let caption = "";

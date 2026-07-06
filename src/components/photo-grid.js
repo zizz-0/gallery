@@ -27,8 +27,16 @@ export default function PhotoGrid({ photos }) {
     }
   };
 
+  {/* TODO:
+    * add sort options --
+    *   date
+    *   category
+    *   location
+    * 
+    * sort by both asc/desc
+  */}
   const sortedPhotos = [...photos].sort(
-    (a, b) => new Date(b.date) - new Date(a.date)
+    (a, b) => b.id - a.id
   );
 
   const filteredPhotos =
@@ -37,7 +45,17 @@ export default function PhotoGrid({ photos }) {
       : sortedPhotos.filter((photo) =>
           photo.category.includes(Number(selectedCategory))
         );
-
+  
+  {/* TODO: 
+    * update photos.json -- 
+    *   rm 1-2 chickadees
+    *   rm all(?) aquarium
+    *   rm nature (mendon boardwalk, rit forest path, sun thru trees, cherry tree, mendon lake)
+    *   add more portraits
+    * 
+    *   maybe re-edit cardinal pics, rm one
+    *   re-edit fairy tree
+  */}
   return (
     <div>
       <div className="flex pl-5 pt-4 pb-3 bg-white text-black sticky top-[12vh] z-30">

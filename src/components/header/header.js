@@ -46,10 +46,13 @@ export default function Header({title}) {
                 <a href="/">Home</a>
               </li>
               <li className="text-2xl underline my-8 p-4 w-[70vw]">
+                <a href="/about-me">About Me</a>
+              </li>
+              <li className="text-2xl underline my-8 p-4 w-[70vw]">
                 <a href="/gallery">Gallery</a>
               </li>
               <li className="text-2xl underline my-8 p-4 w-[70vw]">
-                <a  href="https://www.instagram.com/zizz.photography/" target="_blank">Instagram</a>
+                <a  href="https://www.instagram.com/zzizz.jpg/" target="_blank">Instagram</a>
               </li>
             </ul>
           </div>
@@ -68,13 +71,16 @@ export default function Header({title}) {
           </div>
           <ul className="DESKTOP-MENU hidden space-x-5 lg:flex mr-[20px] items-center">
             <li>
-              <a href="/" className="text-2xl underline" style={{fontFamily: 'Trebuchet MS, sans-serif'}}>Home</a>
+              <a href="/" className="mr-4 text-2xl underline" style={{fontFamily: 'Trebuchet MS, sans-serif'}}>Home</a>
             </li>
             <li>
-              <a href="/gallery" className="mx-4 mr-3 text-2xl underline" style={{fontFamily: 'Trebuchet MS, sans-serif'}}>Gallery</a>
+              <a href="/about-me" className="mr-4 text-2xl underline" style={{fontFamily: 'Trebuchet MS, sans-serif'}}>About Me</a>
             </li>
             <li>
-              <a href="https://www.instagram.com/zizz.photography/" target="_blank">
+              <a href="/gallery" className="mr-4 mr-3 text-2xl underline" style={{fontFamily: 'Trebuchet MS, sans-serif'}}>Gallery</a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/zzizz.jpg/" target="_blank">
                   <img src="icons/instagram.png" width={30} height={30}/>
               </a>
             </li>
