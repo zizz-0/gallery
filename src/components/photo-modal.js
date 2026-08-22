@@ -3,6 +3,7 @@ import { useState, useRef, useEffect } from 'react';
 
 export default function PhotoModal({ photo, onClose, onPrev, onNext }) {
   const [showMagnifier, setShowMagnifier] = useState(false);
+  const [isZoomCursorEnabled, setIsZoomCursorEnabled] = useState(false);
   const [magnifierPos, setMagnifierPos] = useState({ x: 0, y: 0 });
   const [naturalSize, setNaturalSize] = useState({ width: 0, height: 0 });
   const [isMobile, setIsMobile] = useState(false);
@@ -75,14 +76,18 @@ export default function PhotoModal({ photo, onClose, onPrev, onNext }) {
             }`}>
           <div
             ref={containerRef}
-            className={`relative rounded cursor-crosshair ${
+            className={`relative rounded ${isZoomCursorEnabled ? 'cursor-crosshair' : 'cursor-default'} ${
               photo.orientation === "landscape"
                 ? "w-full h-[35vh] md:w-[55vw] md:h-[65vh]"
                 : "w-full h-[60vh] md:w-[30vw] md:h-[70vh]"
             }`}
-            onMouseEnter={() => setShowMagnifier(true)}
+            onMouseEnter={() => {
+              if (isZoomCursorEnabled) setShowMagnifier(true);
+            }}
             onMouseLeave={() => setShowMagnifier(false)}
-            onMouseMove={handleMouseMove}
+            onMouseMove={(e) => {
+              if (isZoomCursorEnabled) handleMouseMove(e);
+            }}
           >
             <Image
               src={photo.fullSizeUrl}
@@ -202,19 +207,38 @@ export default function PhotoModal({ photo, onClose, onPrev, onNext }) {
           &#8250;
         </button>
 
-        <div className="absolute top-5 sm:top-4 right-4 flex items-center gap-2">
-          <label htmlFor="zoom-select" className="text-gray-600 text-lg invisible sm:visible" style={{fontFamily: 'Trebuchet MS, sans-serif'}}>Zoom:</label>
-          <select
-            id="zoom-select"
-            className="border border-gray-300 rounded px-3 py-1 text-md mr-4 text-gray-700 bg-white invisible sm:visible"
-            value={zoom}
-            onChange={(e) => setZoom(Number(e.target.value))}
-          >
-            <option value={1}>1x</option>
-            <option value={2}>2x</option>
-            <option value={3}>3x</option>
-            <option value={4}>4x</option>
-          </select>
+        <div className="absolute top-6 sm:top-1 right-4 flex items-start gap-8">
+          <div className="flex flex-row items-start gap-8">
+            <label className="hidden sm:flex items-center gap-2 text-gray-600 text-lg" style={{fontFamily: 'Trebuchet MS, sans-serif'}}>
+              <span>Zoom cursor:</span>
+              <button
+                type="button"
+                aria-label="Toggle zoom cursor"
+                aria-pressed={isZoomCursorEnabled}
+                onClick={() => setIsZoomCursorEnabled((prev) => !prev)}
+                className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors ${isZoomCursorEnabled ? 'bg-[#6d8dc2]' : 'bg-gray-300'}`}
+              >
+                <span
+                  className={`inline-block h-5 w-5 transform rounded-full bg-white transition-transform ${isZoomCursorEnabled ? 'translate-x-5' : 'translate-x-1'}`}
+                />
+              </button>
+            </label>
+            
+            <label htmlFor="zoom-select" className="text-gray-600 text-lg hidden sm:inline" style={{fontFamily: 'Trebuchet MS, sans-serif'}}>
+              <span>Zoom: </span>
+              <select
+                id="zoom-select"
+                className="border border-gray-300 rounded px-3 py-1 text-md mr-2 text-gray-700 bg-white hidden sm:inline-block"
+                value={zoom}
+                onChange={(e) => setZoom(Number(e.target.value))}
+              >
+                <option value={1}>1x</option>
+                <option value={2}>2x</option>
+                <option value={3}>3x</option>
+                <option value={4}>4x</option>
+              </select>
+            </label>
+          </div>
 
           <button
             onClick={onClose}
