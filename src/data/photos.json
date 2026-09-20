@@ -34,8 +34,7 @@
     "orientation": "landscape",
     "highlight": "n",
     "category": [
-      2,
-      3
+      2
     ],
     "width": 1024,
     "height": 683
@@ -586,8 +585,7 @@
     "orientation": "landscape",
     "highlight": "n",
     "category": [
-      2,
-      3
+      2
     ]
   },
   {
@@ -608,8 +606,7 @@
     "orientation": "landscape",
     "highlight": "n",
     "category": [
-      2,
-      3
+      2
     ]
   },
   {
@@ -1138,8 +1135,7 @@
     "orientation": "portrait",
     "highlight": "y",
     "category": [
-      2,
-      3
+      2
     ]
   },
   {
@@ -1160,8 +1156,7 @@
     "orientation": "landscape",
     "highlight": "y",
     "category": [
-      2,
-      3
+      2
     ]
   },
   {
@@ -1224,8 +1219,7 @@
     "orientation": "landscape",
     "highlight": "n",
     "category": [
-      2,
-      3
+      2
     ]
   }
 ]
