@@ -28,12 +28,7 @@ export default function PhotoGrid({ photos }) {
   };
 
   {/* TODO:
-    * add sort options --
-    *   date
-    *   category
-    *   location
-    * 
-    * sort by both asc/desc
+    *   add deeplink for each photo category
   */}
   const sortedPhotos = [...photos].sort(
     (a, b) => b.id - a.id
@@ -48,12 +43,7 @@ export default function PhotoGrid({ photos }) {
   
   {/* TODO: 
     * update photos.json -- 
-    *   rm 1-2 chickadees
-    *   rm all(?) aquarium
-    *   rm nature (mendon boardwalk, rit forest path, sun thru trees, cherry tree, mendon lake)
-    *   add more portraits
-    * 
-    *   maybe re-edit cardinal pics, rm one
+    *   maybe re-edit cardinal pics
     *   re-edit fairy tree
   */}
   return (

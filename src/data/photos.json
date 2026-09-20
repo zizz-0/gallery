@@ -13,32 +13,13 @@
     "date": "Sep 30, 2023",
     "location": "Rochester, NY",
     "orientation": "portrait",
-    "highlight": "y",
-    "category": [],
-    "width": 585,
-    "height": 878
-  },
-  {
-    "id": 2,
-    "fullSizeUrl": "images/lantern2.jpg",
-    "thumbnailUrl": "/images/thumbnails/lantern2.jpg",
-    "caption": "Many lanterns floating on water",
-    "camera": "Nikon D3500",
-    "lens": "AF-P NIKKOR 70-300mm f/4.5-5.6E ED",
-    "fstop": "ƒ/6.3",
-    "shutter": "1/50",
-    "iso": "12800",
-    "flash": "Off",
-    "date": "Sep 30, 2023",
-    "location": "Rochester, NY",
-    "orientation": "portrait",
     "highlight": "n",
     "category": [],
     "width": 585,
     "height": 878
   },
   {
-    "id": 3,
+    "id": 2,
     "fullSizeUrl": "images/richie-ellie.jpg",
     "thumbnailUrl": "/images/thumbnails/richie-ellie.jpg",
     "caption": "Two friends hiking",
@@ -51,7 +32,7 @@
     "date": "Apr 4, 2025",
     "location": "Mendon Ponds Park, NY",
     "orientation": "landscape",
-    "highlight": "y",
+    "highlight": "n",
     "category": [
       2,
       3
@@ -60,7 +41,7 @@
     "height": 683
   },
   {
-    "id": 4,
+    "id": 3,
     "fullSizeUrl": "images/tree-hugging.jpg",
     "thumbnailUrl": "/images/thumbnails/tree-hugging.jpg",
     "caption": "Tree hugging",
@@ -81,7 +62,7 @@
     "height": 1024
   },
   {
-    "id": 5,
+    "id": 4,
     "fullSizeUrl": "images/richie.jpg",
     "thumbnailUrl": "/images/thumbnails/richie.jpg",
     "caption": "Out of focus person looking up",
@@ -102,7 +83,7 @@
     "height": 1024
   },
   {
-    "id": 6,
+    "id": 5,
     "fullSizeUrl": "images/eagle1.jpg",
     "thumbnailUrl": "/images/thumbnails/eagle1.jpg",
     "caption": "Juvenile Bald Eagle",
@@ -115,7 +96,7 @@
     "date": "Apr 4, 2025",
     "location": "Mendon Ponds Park, NY",
     "orientation": "portrait",
-    "highlight": "y",
+    "highlight": "n",
     "category": [
       1
     ],
@@ -123,7 +104,7 @@
     "height": 1024
   },
   {
-    "id": 7,
+    "id": 6,
     "fullSizeUrl": "images/eagle2.jpg",
     "thumbnailUrl": "/images/thumbnails/eagle2.jpg",
     "caption": "Juvenile Bald Eagle",
@@ -144,7 +125,7 @@
     "height": 907
   },
   {
-    "id": 8,
+    "id": 7,
     "fullSizeUrl": "images/chickadee3.jpg",
     "thumbnailUrl": "/images/thumbnails/chickadee3.jpg",
     "caption": "Chickadee on top of a fairy house",
@@ -157,7 +138,7 @@
     "date": "Apr 6, 2025",
     "location": "Mendon Ponds Park, NY",
     "orientation": "portrait",
-    "highlight": "y",
+    "highlight": "n",
     "category": [
       1
     ],
@@ -165,7 +146,7 @@
     "height": 1024
   },
   {
-    "id": 9,
+    "id": 8,
     "fullSizeUrl": "images/chickadee4.jpg",
     "thumbnailUrl": "/images/thumbnails/chickadee4.jpg",
     "caption": "Chickadee perched on a branch",
@@ -186,7 +167,7 @@
     "height": 683
   },
   {
-    "id": 10,
+    "id": 9,
     "fullSizeUrl": "images/trail-map.jpg",
     "thumbnailUrl": "/images/thumbnails/trail-map.jpg",
     "caption": "Trailhead",
@@ -207,7 +188,7 @@
     "height": 683
   },
   {
-    "id": 11,
+    "id": 10,
     "fullSizeUrl": "images/trailhead1.jpg",
     "thumbnailUrl": "/images/thumbnails/trailhead1.jpg",
     "caption": "Two hikers at a trailhead",
@@ -229,7 +210,7 @@
     "height": 1024
   },
   {
-    "id": 12,
+    "id": 11,
     "fullSizeUrl": "images/trailhead2.jpg",
     "thumbnailUrl": "/images/thumbnails/trailhead2.jpg",
     "caption": "Two hikers at a trailhead",
@@ -251,7 +232,7 @@
     "height": 683
   },
   {
-    "id": 13,
+    "id": 12,
     "fullSizeUrl": "images/fairy-house.jpg",
     "thumbnailUrl": "/images/thumbnails/fairy-house.jpg",
     "caption": "Fairy houses in the trees",
@@ -264,7 +245,7 @@
     "date": "Apr 6, 2025",
     "location": "Mendon Ponds Park, NY",
     "orientation": "landscape",
-    "highlight": "n",
+    "highlight": "y",
     "category": [
       3
     ],
@@ -272,7 +253,7 @@
     "height": 683
   },
   {
-    "id": 14,
+    "id": 13,
     "fullSizeUrl": "images/cardinal.jpg",
     "thumbnailUrl": "/images/thumbnails/cardinal.jpg",
     "caption": "Cardinal perched on a branch",
@@ -293,7 +274,7 @@
     "height": 1024
   },
   {
-    "id": 15,
+    "id": 14,
     "fullSizeUrl": "images/look-up.jpg",
     "thumbnailUrl": "/images/thumbnails/look-up.jpg",
     "caption": "Trailhead that says \"Look up\"",
@@ -314,7 +295,7 @@
     "height": 683
   },
   {
-    "id": 16,
+    "id": 15,
     "fullSizeUrl": "images/evan-amber1.jpg",
     "thumbnailUrl": "/images/thumbnails/evan-amber1.jpg",
     "caption": "Two college graduates holding diplomas",
@@ -335,7 +316,7 @@
     "height": 4000
   },
   {
-    "id": 17,
+    "id": 16,
     "fullSizeUrl": "images/evan-amber2.jpg",
     "thumbnailUrl": "/images/thumbnails/evan-amber2.jpg",
     "caption": "Two college graduates holding caps",
@@ -356,7 +337,7 @@
     "height": 4739
   },
   {
-    "id": 18,
+    "id": 17,
     "fullSizeUrl": "images/rebecca-amber.jpg",
     "thumbnailUrl": "/images/thumbnails/rebecca-amber.jpg",
     "caption": "College graduate with friend",
@@ -377,7 +358,7 @@
     "height": 1024
   },
   {
-    "id": 19,
+    "id": 18,
     "fullSizeUrl": "images/rebecca-amber-2.jpg",
     "thumbnailUrl": "/images/thumbnails/rebecca-amber-2.jpg",
     "caption": "College graduate with friend",
@@ -398,7 +379,7 @@
     "height": 1024
   },
   {
-    "id": 20,
+    "id": 19,
     "fullSizeUrl": "images/woodpecker.jpg",
     "thumbnailUrl": "/images/thumbnails/woodpecker.jpg",
     "location": "Mendon Ponds Park, NY",
@@ -420,7 +401,7 @@
     ]
   },
   {
-    "id": 21,
+    "id": 20,
     "fullSizeUrl": "images/tree-arch.jpg",
     "thumbnailUrl": "/images/thumbnails/tree-arch.jpg",
     "location": "Mendon Ponds Park, NY",
@@ -441,7 +422,7 @@
     ]
   },
   {
-    "id": 22,
+    "id": 21,
     "fullSizeUrl": "images/vines.jpg",
     "thumbnailUrl": "/images/thumbnails/vines.jpg",
     "location": "Mendon Ponds Park, NY",
@@ -462,7 +443,7 @@
     ]
   },
   {
-    "id": 23,
+    "id": 22,
     "fullSizeUrl": "images/willow.jpg",
     "thumbnailUrl": "/images/thumbnails/willow.jpg",
     "location": "Rochester Institute of Technology, NY",
@@ -483,7 +464,7 @@
     ]
   },
   {
-    "id": 24,
+    "id": 23,
     "fullSizeUrl": "images/fall-trees.jpg",
     "thumbnailUrl": "/images/thumbnails/fall-trees.jpg",
     "location": "Rochester Institute of Technology, NY",
@@ -504,7 +485,7 @@
     ]
   },
   {
-    "id": 25,
+    "id": 24,
     "fullSizeUrl": "images/forest-path.jpg",
     "thumbnailUrl": "/images/thumbnails/forest-path.jpg",
     "location": "Rochester Institute of Technology, NY",
@@ -519,13 +500,13 @@
     "width": 6000,
     "height": 4000,
     "orientation": "landscape",
-    "highlight": "y",
+    "highlight": "n",
     "category": [
       3
     ]
   },
   {
-    "id": 26,
+    "id": 25,
     "fullSizeUrl": "images/hill.jpg",
     "thumbnailUrl": "/images/thumbnails/hill.jpg",
     "location": "Rochester Institute of Technology, NY",
@@ -540,13 +521,13 @@
     "width": 4000,
     "height": 6000,
     "orientation": "portrait",
-    "highlight": "y",
+    "highlight": "n",
     "category": [
       3
     ]
   },
   {
-    "id": 27,
+    "id": 26,
     "fullSizeUrl": "images/leaves.jpg",
     "thumbnailUrl": "/images/thumbnails/leaves.jpg",
     "location": "Rochester Institute of Technology, NY",
@@ -567,7 +548,7 @@
     ]
   },
   {
-    "id": 28,
+    "id": 27,
     "fullSizeUrl": "images/jetski.jpg",
     "thumbnailUrl": "/images/thumbnails/jetski.jpg",
     "location": "Marco Island, FL",
@@ -588,7 +569,7 @@
     ]
   },
   {
-    "id": 29,
+    "id": 28,
     "fullSizeUrl": "images/letchworth-dana.jpg",
     "thumbnailUrl": "/images/thumbnails/letchworth-dana.jpg",
     "location": "Letchworth State Park, NY",
@@ -610,7 +591,7 @@
     ]
   },
   {
-    "id": 30,
+    "id": 29,
     "fullSizeUrl": "images/letchworth-richie-ellie.jpg",
     "thumbnailUrl": "/images/thumbnails/letchworth-richie-ellie.jpg",
     "location": "Letchworth State Park, NY",
@@ -632,7 +613,7 @@
     ]
   },
   {
-    "id": 31,
+    "id": 30,
     "fullSizeUrl": "images/letchworth-richie.jpg",
     "thumbnailUrl": "/images/thumbnails/letchworth-richie.jpg",
     "location": "Letchworth State Park, NY",
@@ -654,7 +635,7 @@
     ]
   },
   {
-    "id": 32,
+    "id": 31,
     "fullSizeUrl": "images/prom-cropped-date.jpg",
     "thumbnailUrl": "/images/thumbnails/prom-cropped-date.jpg",
     "location": "Sparta, NJ",
@@ -675,7 +656,7 @@
     ]
   },
   {
-    "id": 33,
+    "id": 32,
     "fullSizeUrl": "images/prom-date.jpg",
     "thumbnailUrl": "/images/thumbnails/prom-date.jpg",
     "location": "Sparta, NJ",
@@ -696,7 +677,7 @@
     ]
   },
   {
-    "id": 34,
+    "id": 33,
     "fullSizeUrl": "images/prom-full-dress.jpg",
     "thumbnailUrl": "/images/thumbnails/prom-full-dress.jpg",
     "location": "Sparta, NJ",
@@ -717,7 +698,7 @@
     ]
   },
   {
-    "id": 35,
+    "id": 34,
     "fullSizeUrl": "images/prom-portrait.jpg",
     "thumbnailUrl": "/images/thumbnails/prom-portrait.jpg",
     "location": "Sparta, NJ",
@@ -738,7 +719,7 @@
     ]
   },
   {
-    "id": 36,
+    "id": 35,
     "fullSizeUrl": "images/grad-cap-backward.jpg",
     "thumbnailUrl": "/images/thumbnails/grad-cap-backward.jpg",
     "location": "Stanhope, NJ",
@@ -759,7 +740,7 @@
     ]
   },
   {
-    "id": 37,
+    "id": 36,
     "fullSizeUrl": "images/grad-cap-toss.jpg",
     "thumbnailUrl": "/images/thumbnails/grad-cap-toss.jpg",
     "location": "Stanhope, NJ",
@@ -780,9 +761,30 @@
     ]
   },
   {
-    "id": 38,
+    "id": 37,
     "fullSizeUrl": "images/grad-crouch.jpg",
     "thumbnailUrl": "/images/thumbnails/grad-crouch.jpg",
+    "location": "Stanhope, NJ",
+    "date": "May 17, 2026",
+    "caption": "",
+    "camera": "Canon EOS R50",
+    "lens": "RF50mm F1.8 STM",
+    "fstop": "ƒ/3.2",
+    "shutter": "1/200",
+    "iso": 100,
+    "flash": "Off",
+    "width": 4000,
+    "height": 6000,
+    "orientation": "portrait",
+    "highlight": "y",
+    "category": [
+      2
+    ]
+  },
+  {
+    "id": 38,
+    "fullSizeUrl": "images/grad-over-shoulder.jpg",
+    "thumbnailUrl": "/images/thumbnails/grad-over-shoulder.jpg",
     "location": "Stanhope, NJ",
     "date": "May 17, 2026",
     "caption": "",
@@ -823,27 +825,6 @@
   },
   {
     "id": 40,
-    "fullSizeUrl": "images/grad-over-shoulder.jpg",
-    "thumbnailUrl": "/images/thumbnails/grad-over-shoulder.jpg",
-    "location": "Stanhope, NJ",
-    "date": "May 17, 2026",
-    "caption": "",
-    "camera": "Canon EOS R50",
-    "lens": "RF50mm F1.8 STM",
-    "fstop": "ƒ/3.2",
-    "shutter": "1/200",
-    "iso": 100,
-    "flash": "Off",
-    "width": 4000,
-    "height": 6000,
-    "orientation": "portrait",
-    "highlight": "n",
-    "category": [
-      2
-    ]
-  },
-  {
-    "id": 41,
     "fullSizeUrl": "images/grad-plushie.jpg",
     "thumbnailUrl": "/images/thumbnails/grad-plushie.jpg",
     "location": "Stanhope, NJ",
@@ -864,7 +845,7 @@
     ]
   },
   {
-    "id": 42,
+    "id": 41,
     "fullSizeUrl": "images/grad-tree.jpg",
     "thumbnailUrl": "/images/thumbnails/grad-tree.jpg",
     "location": "Stanhope, NJ",
@@ -885,7 +866,7 @@
     ]
   },
   {
-    "id": 43,
+    "id": 42,
     "fullSizeUrl": "images/quinnipiac.jpg",
     "thumbnailUrl": "/images/thumbnails/quinnipiac.jpg",
     "location": "Stanhope, NJ",
@@ -906,7 +887,49 @@
     ]
   },
   {
+    "id": 43,
+    "fullSizeUrl": "images/mia-playground-1.jpg",
+    "thumbnailUrl": "/images/thumbnails/mia-playground-1.jpg",
+    "location": "Stanhope, NJ",
+    "date": "May 17, 2026",
+    "caption": "",
+    "camera": "Canon EOS R50",
+    "lens": "RF50mm F1.8 STM",
+    "fstop": "ƒ/3.2",
+    "shutter": "1/1600",
+    "iso": 100,
+    "flash": "Off",
+    "width": 3507,
+    "height": 5260,
+    "orientation": "portrait",
+    "highlight": "n",
+    "category": [
+      2
+    ]
+  },
+  {
     "id": 44,
+    "fullSizeUrl": "images/mia-playground-2.jpg",
+    "thumbnailUrl": "/images/thumbnails/mia-playground-2.jpg",
+    "location": "Stanhope, NJ",
+    "date": "May 17, 2026",
+    "caption": "",
+    "camera": "Canon EOS R50",
+    "lens": "RF50mm F1.8 STM",
+    "fstop": "ƒ/2.8",
+    "shutter": "1/1250",
+    "iso": 200,
+    "flash": "Off",
+    "width": 6000,
+    "height": 4000,
+    "orientation": "landscape",
+    "highlight": "n",
+    "category": [
+      2
+    ]
+  },
+  {
+    "id": 45,
     "fullSizeUrl": "images/end-school-zone.jpg",
     "thumbnailUrl": "/images/thumbnails/end-school-zone.jpg",
     "location": "Stanhope, NJ",
@@ -927,7 +950,7 @@
     ]
   },
   {
-    "id": 45,
+    "id": 46,
     "fullSizeUrl": "images/boardwalk.jpg",
     "thumbnailUrl": "/images/thumbnails/boardwalk.jpg",
     "location": "Turning Point Park, NY",
@@ -949,7 +972,7 @@
     ]
   },
   {
-    "id": 46,
+    "id": 47,
     "fullSizeUrl": "images/swallow_1.jpg",
     "thumbnailUrl": "/images/thumbnails/swallow_1.jpg",
     "location": "Turning Point Park, NY",
@@ -970,7 +993,7 @@
     ]
   },
   {
-    "id": 47,
+    "id": 48,
     "fullSizeUrl": "images/swallow_2.jpg",
     "thumbnailUrl": "/images/thumbnails/swallow_2.jpg",
     "location": "Turning Point Park, NY",
@@ -991,7 +1014,7 @@
     ]
   },
   {
-    "id": 48,
+    "id": 49,
     "fullSizeUrl": "images/walking_trail.jpg",
     "thumbnailUrl": "/images/thumbnails/walking_trail.jpg",
     "location": "Turning Point Park, NY",
@@ -1013,7 +1036,7 @@
     ]
   },
   {
-    "id": 49,
+    "id": 50,
     "fullSizeUrl": "images/glen_waterfall.jpg",
     "thumbnailUrl": "/images/thumbnails/glen_waterfall.jpg",
     "location": "Watkins Glen State Park, NY",
@@ -1028,13 +1051,13 @@
     "width": 4000,
     "height": 6000,
     "orientation": "portrait",
-    "highlight": "y",
+    "highlight": "n",
     "category": [
       3
     ]
   },
   {
-    "id": 50,
+    "id": 51,
     "fullSizeUrl": "images/richie_glen.jpg",
     "thumbnailUrl": "/images/thumbnails/richie_glen.jpg",
     "location": "Watkins Glen State Park, NY",
@@ -1049,14 +1072,14 @@
     "width": 6000,
     "height": 4000,
     "orientation": "landscape",
-    "highlight": "y",
+    "highlight": "n",
     "category": [
       2,
       3
     ]
   },
   {
-    "id": 51,
+    "id": 52,
     "fullSizeUrl": "images/waterfall_bridge.jpg",
     "thumbnailUrl": "/images/thumbnails/waterfall_bridge.jpg",
     "location": "Watkins Glen State Park, NY",
@@ -1077,7 +1100,7 @@
     ]
   },
   {
-    "id": 52,
+    "id": 53,
     "fullSizeUrl": "images/zoe-headshot-1.jpg",
     "thumbnailUrl": "/images/thumbnails/zoe-headshot-1.jpg",
     "location": "Stanhope, NJ",
@@ -1098,24 +1121,111 @@
     ]
   },
   {
-    "id": 53,
-    "fullSizeUrl": "images/zoe-headshot-2.jpg",
-    "thumbnailUrl": "/images/thumbnails/zoe-headshot-2.jpg",
-    "location": "Stanhope, NJ",
-    "date": "Aug 14, 2026",
+    "id": 54,
+    "fullSizeUrl": "images/aidan-tree.jpg",
+    "thumbnailUrl": "/images/thumbnails/aidan-tree.jpg",
+    "location": "Eternal Flame Falls, NY",
+    "date": "Sep 7, 2026",
     "caption": "",
     "camera": "Canon EOS R50",
     "lens": "RF50mm F1.8 STM",
-    "fstop": "ƒ/4.5",
-    "shutter": "1/400",
+    "fstop": "ƒ/2.8",
+    "shutter": "1/200",
+    "iso": 160,
+    "flash": "Off",
+    "width": 3493,
+    "height": 5240,
+    "orientation": "portrait",
+    "highlight": "y",
+    "category": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": 55,
+    "fullSizeUrl": "images/zoe-tree.jpg",
+    "thumbnailUrl": "/images/thumbnails/zoe-tree.jpg",
+    "location": "Eternal Flame Falls, NY",
+    "date": "Sep 7, 2026",
+    "caption": "",
+    "camera": "Canon EOS R50",
+    "lens": "RF50mm F1.8 STM",
+    "fstop": "ƒ/2.8",
+    "shutter": "1/200",
+    "iso": 125,
+    "flash": "Off",
+    "width": 5698,
+    "height": 3799,
+    "orientation": "landscape",
+    "highlight": "y",
+    "category": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": 56,
+    "fullSizeUrl": "images/allison-stairs.jpg",
+    "thumbnailUrl": "/images/thumbnails/allison-stairs.jpg",
+    "location": "Letchworth State Park, NY",
+    "date": "Sep 12, 2026",
+    "caption": "",
+    "camera": "Canon EOS R50",
+    "lens": "RF50mm F1.8 STM",
+    "fstop": "ƒ/3.2",
+    "shutter": "1/100",
     "iso": 100,
     "flash": "Off",
-    "width": 3774,
-    "height": 5661,
+    "width": 3535,
+    "height": 5303,
     "orientation": "portrait",
     "highlight": "n",
     "category": [
       2
+    ]
+  },
+  {
+    "id": 57,
+    "fullSizeUrl": "images/family-portrait.jpg",
+    "thumbnailUrl": "/images/thumbnails/family-portrait.jpg",
+    "location": "Letchworth State Park, NY",
+    "date": "Sep 12, 2026",
+    "caption": "",
+    "camera": "Canon EOS R50",
+    "lens": "RF50mm F1.8 STM",
+    "fstop": "ƒ/2.8",
+    "shutter": "1/80",
+    "iso": 100,
+    "flash": "Off",
+    "width": 4000,
+    "height": 6000,
+    "orientation": "portrait",
+    "highlight": "n",
+    "category": [
+      2
+    ]
+  },
+  {
+    "id": 58,
+    "fullSizeUrl": "images/lightpost.jpg",
+    "thumbnailUrl": "/images/thumbnails/lightpost.jpg",
+    "location": "Letchworth State Park, NY",
+    "date": "Sep 12, 2026",
+    "caption": "",
+    "camera": "Canon EOS R50",
+    "lens": "RF50mm F1.8 STM",
+    "fstop": "ƒ/3.2",
+    "shutter": "1/100",
+    "iso": 100,
+    "flash": "Off",
+    "width": 6000,
+    "height": 4000,
+    "orientation": "landscape",
+    "highlight": "n",
+    "category": [
+      2,
+      3
     ]
   }
 ]

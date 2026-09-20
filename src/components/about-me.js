@@ -9,7 +9,7 @@ export default function AboutMe() {
         <div className="sm:relative mb-[30px] mt-[20px] md:mt-0 md:absolute md:top-1/4 md:left-1/10 flex flex-col p-5 md:p-8 w-[90vw] md:w-[30vw] md:bg-[#40593D]/70 bg-[#374a34]/70 rounded relative z-10">
             <p className="text-lg mb-2 md:text-xl text-white" style={{fontFamily: 'Trebuchet MS, sans-serif'}}>Hello, I'm Zoe!</p>
             <p className="text-lg mb-2 md:text-xl text-white" style={{fontFamily: 'Trebuchet MS, sans-serif'}}>I am a portrait and nature photographer primarily based in Rochester, NY, although I am in northern NJ for parts of the year.</p>
-            <p className="text-lg mb-2 md:text-xl text-white" style={{fontFamily: 'Trebuchet MS, sans-serif'}}>I shoot both portrait and nature photography. Casual photoshoots are my specialty, so if you're looking for laid-back and authentic photos, feel free to reach out over email or instagram!</p>
+            <p className="text-lg mb-2 md:text-xl text-white" style={{fontFamily: 'Trebuchet MS, sans-serif'}}>Casual photoshoots are my specialty, so if you're looking for laid-back and authentic photos, feel free to reach out over email or instagram!</p>
             <div className="flex gap-2 pt-4 items-center">
               <Image
                 src={"icons/camera_white.png"}
@@ -26,7 +26,12 @@ export default function AboutMe() {
               </a>
             </div>
         </div>
-        {/* TODO: add more info */}
+        {/* TODO:
+          *   add editing section - see https://www.morgandawson.com/
+          */}
+          <div>
+            
+          </div>
     </div>
   );
 }
