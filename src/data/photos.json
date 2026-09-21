@@ -1221,5 +1221,47 @@
     "category": [
       2
     ]
+  },
+  {
+    "id": 59,
+    "fullSizeUrl": "images/railing.jpg",
+    "thumbnailUrl": "/images/thumbnails/railing.jpg",
+    "location": "Letchworth State Park, NY",
+    "date": "Sep 12, 2026",
+    "caption": "",
+    "camera": "Canon EOS R50",
+    "lens": "RF50mm F1.8 STM",
+    "fstop": "ƒ/1.8",
+    "shutter": "1/80",
+    "iso": 100,
+    "flash": "Off",
+    "width": 6000,
+    "height": 4000,
+    "orientation": "landscape",
+    "highlight": "n",
+    "category": [
+      2
+    ]
+  },
+  {
+    "id": 60,
+    "fullSizeUrl": "images/tyler-cam.jpg",
+    "thumbnailUrl": "/images/thumbnails/tyler-cam.jpg",
+    "location": "Letchworth State Park, NY",
+    "date": "Sep 12, 2026",
+    "caption": "",
+    "camera": "Canon EOS R50",
+    "lens": "RF50mm F1.8 STM",
+    "fstop": "ƒ/5",
+    "shutter": "1/250",
+    "iso": 100,
+    "flash": "Off",
+    "width": 6000,
+    "height": 4000,
+    "orientation": "landscape",
+    "highlight": "n",
+    "category": [
+      2
+    ]
   }
 ]

@@ -67,6 +67,9 @@ function formatExifDate(dateInput) {
     const fullSizeUrl = `images/${file}`;
 
     if (fullSizeUrl == `images/me.jpg`) continue;
+    if (fullSizeUrl == `images/me1.JPG`) continue;
+    if (fullSizeUrl == `images/me2.JPG`) continue;
+    if (fullSizeUrl == `images/me3.JPG`) continue;
     if (fullSizeUrl == `images/danger_sign.jpg`) continue;
 
     const existingIndex = photoData.findIndex((p) => p.fullSizeUrl === fullSizeUrl);
