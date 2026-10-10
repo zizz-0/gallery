@@ -1,16 +1,28 @@
 "use client";
 import Image from "next/image";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
 import PhotoModal from "./photo-modal";
+import { galleryCategories } from "@/data/gallery-categories";
 
-export default function PhotoGrid({ photos }) {
+export default function PhotoGrid({ photos, initialCategory = "all" }) {
+  const router = useRouter();
   const [selectedPhotoIndex, setSelectedPhotoIndex] = useState(null);
-  const [selectedCategory, setSelectedCategory] = useState("all");
+  const [selectedCategory, setSelectedCategory] = useState(initialCategory);
 
-  const categories = {
-    1: "Wildlife",
-    2: "Portrait",
-    3: "Nature",
+  useEffect(() => {
+    setSelectedCategory(initialCategory);
+    setSelectedPhotoIndex(null);
+  }, [initialCategory]);
+
+  const handleCategoryChange = (categoryId) => {
+    setSelectedCategory(categoryId);
+    setSelectedPhotoIndex(null);
+
+    const category = galleryCategories.find(
+      ({ id }) => id === Number(categoryId)
+    );
+    router.push(category ? `/gallery/${category.slug}` : "/gallery");
   };
 
   const handleNext = () => {
@@ -27,9 +39,6 @@ export default function PhotoGrid({ photos }) {
     }
   };
 
-  {/* TODO:
-    *   add deeplink for each photo category
-  */}
   const sortedPhotos = [...photos].sort(
     (a, b) => b.id - a.id
   );
@@ -52,12 +61,12 @@ export default function PhotoGrid({ photos }) {
         <label className="mr-2 font-semibold">Filter Gallery:</label>
         <select
           value={selectedCategory}
-          onChange={(e) => setSelectedCategory(e.target.value)}
+          onChange={(e) => handleCategoryChange(e.target.value)}
           className="border rounded px-3 py-1 cursor-pointer hover:cursor-pointer"
         >
           <option value="all">All</option>
-          {Object.entries(categories).map(([key, label]) => (
-            <option key={key} value={key}>
+          {galleryCategories.map(({ id, label }) => (
+            <option key={id} value={id}>
               {label}
             </option>
           ))}

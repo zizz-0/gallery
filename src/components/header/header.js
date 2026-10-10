@@ -81,7 +81,7 @@ export default function Header({title}) {
             </li>
             <li>
               <a href="https://www.instagram.com/zzizz.jpg/" target="_blank">
-                  <img src="icons/instagram.png" width={30} height={30}/>
+                  <img src="/icons/instagram.png" width={30} height={30}/>
               </a>
             </li>
           </ul>

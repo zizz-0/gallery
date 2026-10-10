@@ -2,6 +2,9 @@ import Image from 'next/image';
 import { useState, useRef, useEffect } from 'react';
 
 export default function PhotoModal({ photo, onClose, onPrev, onNext }) {
+  const fullSizeUrl = photo.fullSizeUrl.startsWith("/")
+    ? photo.fullSizeUrl
+    : `/${photo.fullSizeUrl}`;
   const [showMagnifier, setShowMagnifier] = useState(false);
   const [isZoomCursorEnabled, setIsZoomCursorEnabled] = useState(false);
   const [magnifierPos, setMagnifierPos] = useState({ x: 0, y: 0 });
@@ -90,7 +93,7 @@ export default function PhotoModal({ photo, onClose, onPrev, onNext }) {
             }}
           >
             <Image
-              src={photo.fullSizeUrl}
+              src={fullSizeUrl}
               alt={photo.caption}
               fill
               className="object-contain max-h-full rounded"
@@ -111,7 +114,7 @@ export default function PhotoModal({ photo, onClose, onPrev, onNext }) {
                   borderRadius: '5%',
                   boxShadow: '0 0 8px 2px rgba(0,0,0,0.3)',
                   backgroundColor: 'white',
-                  backgroundImage: `url(${photo.fullSizeUrl})`,
+                  backgroundImage: `url(${fullSizeUrl})`,
                   backgroundRepeat: 'no-repeat',
                   backgroundSize: `${displayedWidth * zoom}px ${displayedHeight * zoom}px`,
                   backgroundPositionX: `${-(magnifierPos.x - (containerRef.current.offsetWidth - displayedWidth) / 2) *
@@ -138,7 +141,7 @@ export default function PhotoModal({ photo, onClose, onPrev, onNext }) {
             <div>
               <div className="flex gap-2 pb-4 pt-5 items-center">
                 <Image
-                  src={"icons/camera.png"}
+                  src={"/icons/camera.png"}
                   alt={"Camera symbol"}
                   width={35}
                   height={3}
@@ -147,7 +150,7 @@ export default function PhotoModal({ photo, onClose, onPrev, onNext }) {
               </div>
               <div className="flex gap-2 pb-4 items-center">
                 <Image
-                  src={"icons/lens.png"}
+                  src={"/icons/lens.png"}
                   alt={"Lens symbol"}
                   width={35}
                   height={35}
@@ -158,7 +161,7 @@ export default function PhotoModal({ photo, onClose, onPrev, onNext }) {
               <div className="flex flex-row sm:flex-col gap-7 sm:gap-0">
                 <div className="flex gap-2 pb-4 items-center">
                   <Image
-                    src={"icons/aperture.png"}
+                    src={"/icons/aperture.png"}
                     alt={"Aperture symbol"}
                     width={35}
                     height={35}
@@ -167,7 +170,7 @@ export default function PhotoModal({ photo, onClose, onPrev, onNext }) {
                 </div>
                 <div className="flex gap-2 pb-4 items-center">
                   <Image
-                    src={"icons/shutterspeed.png"}
+                    src={"/icons/shutterspeed.png"}
                     alt={"Shutter speed symbol"}
                     width={35}
                     height={35}
@@ -179,7 +182,7 @@ export default function PhotoModal({ photo, onClose, onPrev, onNext }) {
               <div className="flex flex-row sm:flex-col gap-7 sm:gap-0">
                 <div className="flex gap-2 pb-4 items-center">
                   <Image
-                    src={"icons/iso.png"}
+                    src={"/icons/iso.png"}
                     alt={"Iso symbol"}
                     width={35}
                     height={35}
@@ -188,7 +191,7 @@ export default function PhotoModal({ photo, onClose, onPrev, onNext }) {
                 </div>
                 <div className="flex gap-2 pb-4 items-center">
                   <Image
-                    src={"icons/flash.png"}
+                    src={"/icons/flash.png"}
                     alt={"Flash symbol"}
                     width={35}
                     height={35}
