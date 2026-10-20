@@ -646,7 +646,7 @@
     "width": 3946,
     "height": 5919,
     "orientation": "portrait",
-    "highlight": "y",
+    "highlight": "n",
     "category": [
       2
     ]
@@ -667,7 +667,7 @@
     "width": 4000,
     "height": 6000,
     "orientation": "portrait",
-    "highlight": "y",
+    "highlight": "n",
     "category": [
       2
     ]
@@ -688,7 +688,7 @@
     "width": 4000,
     "height": 6000,
     "orientation": "portrait",
-    "highlight": "y",
+    "highlight": "n",
     "category": [
       2
     ]
@@ -1111,6 +1111,132 @@
     "height": 4000,
     "orientation": "landscape",
     "highlight": "n",
+    "category": [
+      2
+    ]
+  },
+  {
+    "id": 54,
+    "fullSizeUrl": "images/evan-amber-picnic-table.jpg",
+    "thumbnailUrl": "/images/thumbnails/evan-amber-picnic-table.jpg",
+    "location": "Mendon Ponds Park, NY",
+    "date": "Oct 18, 2026",
+    "caption": "",
+    "camera": "Canon EOS R50",
+    "lens": "RF50mm F1.8 STM",
+    "fstop": "ƒ/1.8",
+    "shutter": "1/500",
+    "iso": 125,
+    "flash": "Off",
+    "width": 5317,
+    "height": 3545,
+    "orientation": "landscape",
+    "highlight": "n",
+    "category": [
+      2
+    ]
+  },
+  {
+    "id": 55,
+    "fullSizeUrl": "images/evan-amber-posed.jpg",
+    "thumbnailUrl": "/images/thumbnails/evan-amber-posed.jpg",
+    "location": "Mendon Ponds Park, NY",
+    "date": "Oct 18, 2026",
+    "caption": "",
+    "camera": "Canon EOS R50",
+    "lens": "RF50mm F1.8 STM",
+    "fstop": "ƒ/1.8",
+    "shutter": "1/2000",
+    "iso": 250,
+    "flash": "Off",
+    "width": 4000,
+    "height": 6000,
+    "orientation": "portrait",
+    "highlight": "y",
+    "category": [
+      2
+    ]
+  },
+  {
+    "id": 56,
+    "fullSizeUrl": "images/evan-amber-sitting-down.jpg",
+    "thumbnailUrl": "/images/thumbnails/evan-amber-sitting-down.jpg",
+    "location": "Mendon Ponds Park, NY",
+    "date": "Oct 18, 2026",
+    "caption": "",
+    "camera": "Canon EOS R50",
+    "lens": "RF50mm F1.8 STM",
+    "fstop": "ƒ/1.8",
+    "shutter": "1/2000",
+    "iso": 400,
+    "flash": "Off",
+    "width": 4000,
+    "height": 6000,
+    "orientation": "portrait",
+    "highlight": "y",
+    "category": [
+      2
+    ]
+  },
+  {
+    "id": 57,
+    "fullSizeUrl": "images/evan-amber-picnic-2.jpg",
+    "thumbnailUrl": "/images/thumbnails/evan-amber-picnic-2.jpg",
+    "location": "Mendon Ponds Park, NY",
+    "date": "Oct 18, 2026",
+    "caption": "",
+    "camera": "Canon EOS R50",
+    "lens": "RF50mm F1.8 STM",
+    "fstop": "ƒ/1.8",
+    "shutter": "1/500",
+    "iso": 100,
+    "flash": "Off",
+    "width": 3757,
+    "height": 5636,
+    "orientation": "portrait",
+    "highlight": "y",
+    "category": [
+      2
+    ]
+  },
+  {
+    "id": 58,
+    "fullSizeUrl": "images/evan-amber-dance.jpg",
+    "thumbnailUrl": "/images/thumbnails/evan-amber-dance.jpg",
+    "location": "Mendon Ponds Park, NY",
+    "date": "",
+    "caption": "",
+    "camera": "Canon EOS R50",
+    "lens": "RF50mm F1.8 STM",
+    "fstop": "ƒ/5",
+    "shutter": "1/500",
+    "iso": "100",
+    "flash": "Off",
+    "width": 3876,
+    "height": 5814,
+    "orientation": "portrait",
+    "highlight": "y",
+    "category": [
+      2
+    ]
+  },
+  {
+    "id": 59,
+    "fullSizeUrl": "images/evan-amber-laugh.jpg",
+    "thumbnailUrl": "/images/thumbnails/evan-amber-laugh.jpg",
+    "location": "Mendon Ponds Park, NY",
+    "date": "",
+    "caption": "",
+    "camera": "Canon EOS R50",
+    "lens": "RF50mm F1.8 STM",
+    "fstop": "ƒ/4.5",
+    "shutter": "1/400",
+    "iso": "100",
+    "flash": "Off",
+    "width": 4000,
+    "height": 2667,
+    "orientation": "landscape",
+    "highlight": "y",
     "category": [
       2
     ]
