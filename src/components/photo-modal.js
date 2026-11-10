@@ -61,6 +61,7 @@ export default function PhotoModal({ photo, onClose, onPrev, onNext }) {
 
   const { displayedWidth, displayedHeight } = getDisplayedImageSize();
 
+  // TODO: next by arrowkeys
   return (
     <div className="bg-white/70 fixed top-[10vh] left-0 right-0 bottom-0 flex items-center justify-center z-40">
       <div className="overflow-y-auto bg-white p-4 rounded shadow-lg relative flex flex-row items-center justify-between gap-5 h-full w-full sm:h-9/10 sm:w-9/10">

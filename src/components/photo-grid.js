@@ -49,24 +49,21 @@ export default function PhotoGrid({ photos, initialCategory = "all" }) {
       : sortedPhotos.filter((photo) =>
           photo.category.includes(Number(selectedCategory))
         );
-  
-  {/* TODO: 
-    * update photos.json -- 
-    *   maybe re-edit cardinal pics
-    *   re-edit fairy tree
-  */}
+  // sort by date, location, category
   return (
     <div>
       <div className="flex pl-5 pt-4 pb-3 bg-white text-black sticky top-[12vh] z-30">
-        <label className="mr-2 font-semibold">Filter Gallery:</label>
+        <label className="mr-2" style={{fontFamily: 'Trebuchet MS, sans-serif'}}>Filter Gallery:</label>
         <select
           value={selectedCategory}
           onChange={(e) => handleCategoryChange(e.target.value)}
           className="border rounded px-3 py-1 cursor-pointer hover:cursor-pointer"
+          style={{fontFamily: 'Trebuchet MS, sans-serif'}}
         >
+          {/* <option value="all">Filter Gallery</option> */}
           <option value="all">All</option>
           {galleryCategories.map(({ id, label }) => (
-            <option key={id} value={id}>
+            <option key={id} value={id} className="hover:bg-gray-200 cursor-pointer hover:cursor-pointer">
               {label}
             </option>
           ))}

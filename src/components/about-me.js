@@ -9,7 +9,7 @@ export default function AboutMe() {
         <div className="sm:relative mb-[30px] mt-[20px] md:mt-0 md:absolute md:top-1/4 md:left-1/10 flex flex-col p-5 md:p-8 w-[90vw] md:w-[30vw] md:bg-[#40593D]/70 bg-[#374a34]/70 rounded relative z-10">
             <p className="text-lg mb-2 md:text-xl text-white" style={{fontFamily: 'Trebuchet MS, sans-serif'}}>Hello, I'm Zoe!</p>
             <p className="text-lg mb-2 md:text-xl text-white" style={{fontFamily: 'Trebuchet MS, sans-serif'}}>I am a portrait and nature photographer primarily based in Rochester, NY, although I am in northern NJ for parts of the year.</p>
-            <p className="text-lg mb-2 md:text-xl text-white" style={{fontFamily: 'Trebuchet MS, sans-serif'}}>Casual photoshoots are my specialty, so if you're looking for laid-back and authentic photos, feel free to reach out over email or instagram!</p>
+            <p className="text-lg mb-2 md:text-xl text-white" style={{fontFamily: 'Trebuchet MS, sans-serif'}}>I primarily do outdoor photoshoots with natural lighting, but I also love doing creative shoots that experiment with different types of lighting. Feel free to reach out over instagram or email if you are interested in working with me!</p>
             <div className="flex gap-2 pt-4 items-center">
               <Image
                 src={"icons/camera_white.png"}
@@ -19,11 +19,14 @@ export default function AboutMe() {
               />
               <p className="text-lg md:text-xl text-white" style={{fontFamily: 'Trebuchet MS, sans-serif'}}>Canon EOS R50</p>
             </div>
+            {/* green on hover for both */}
+            {/* see about replacing imgs with react icons */}
             <div className="flex gap-4 pt-4 flex-row items-center justify-start mt-4">
-              <a href="mailto: rizzo.zoej@gmail.com" className="p-3 px-8 bg-white/90 text-gray-600 rounded text-lg md:text-xl w-auto inline-block self-start" style={{fontFamily: 'Trebuchet MS, sans-serif'}}>Email</a>
               <a href="https://www.instagram.com/zzizz.jpg/" target="_blank">
                   <img src="icons/instagram.png" width={50} height={50}/>
               </a>
+              {/* change this to mail icon */}
+              <a href="mailto: rizzo.zoej@gmail.com" className="p-3 px-8 bg-white/90 text-gray-600 rounded text-lg md:text-xl w-auto inline-block self-start" style={{fontFamily: 'Trebuchet MS, sans-serif'}}>Email</a>
             </div>
         </div>
         {/* TODO:
