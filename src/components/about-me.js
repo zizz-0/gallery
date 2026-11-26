@@ -3,18 +3,18 @@ import Image from "next/image";
 export default function AboutMe() {
   return (
     <section className="mx-auto grid min-h-[calc(100svh-100px)] w-full max-w-[1400px] grid-cols-1 items-center gap-8 px-5 py-10 sm:px-8 md:h-[80vh] md:min-h-0 md:grid-cols-[0.8fr_1.2fr] md:gap-12 md:px-12 md:py-0">
-      <div className="flex min-h-[240px] items-center justify-center sm:min-h-[320px] md:min-h-0">
+      <div className="flex min-h-[240px] items-center justify-center sm:min-h-[320px] md:h-[65vh] md:min-h-0">
         <Image
           src="/secondary-images/me1.JPG"
-          alt="Zoe outdoors with her camera"
+          alt="Me!"
           width={659}
           height={878}
           sizes="(max-width: 768px) 70vw, 35vw"
-          className="h-auto max-h-[40vh] w-auto max-w-[70%] object-contain md:max-h-[65vh] md:max-w-[85%]"
+          className="h-auto max-h-[40vh] w-auto max-w-[70%] object-contain md:h-full md:max-h-[65vh] md:max-w-[85%]"
         />
       </div>
 
-      <div className="h-full bg-neutral-100 p-6 sm:p-10 md:p-12 sm:min-h-[520px] md:min-h-[60vh]">
+      <div className="h-auto bg-neutral-100 p-6 sm:p-10 md:h-[65vh] md:p-12">
         <p className="mb-3 text-xs font-medium uppercase tracking-[0.16em] text-neutral-500">
           About me
         </p>
@@ -32,11 +32,11 @@ export default function AboutMe() {
           interested in working with me!
         </p>
 
-        <div className="mt-7 border-y border-neutral-300 py-5">
+        <div className="mt-4 border-y border-neutral-300 py-5">
           <p className="text-xs font-medium uppercase tracking-[0.14em] text-neutral-500">
             Camera
           </p>
-          <div className="mt-2 flex items-center gap-2 text-neutral-800">
+          <div className="mt-1 flex items-center gap-2 text-neutral-800">
             <svg
               aria-hidden="true"
               viewBox="0 0 24 24"
@@ -54,7 +54,7 @@ export default function AboutMe() {
           </div>
         </div>
 
-        <div className="mt-7 flex items-center gap-6">
+        <div className="mt-4 flex items-center gap-6">
           <a
             aria-label="Instagram"
             className="group flex items-center gap-2 text-sm text-neutral-800 transition-colors hover:text-neutral-500"

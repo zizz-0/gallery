@@ -1302,34 +1302,13 @@
     "width": 3951,
     "height": 5927,
     "orientation": "portrait",
-    "highlight": "y",
+    "highlight": "n",
     "category": [
       3
     ]
   },
   {
     "id": 63,
-    "fullSizeUrl": "images/aidan-primetime.jpg",
-    "thumbnailUrl": "/images/thumbnails/aidan-primetime.jpg",
-    "location": "Rochester, NY",
-    "date": "Oct 30, 2026",
-    "caption": "",
-    "camera": "Canon EOS R50",
-    "lens": "RF-S18-45mm F4.5-6.3 IS STM",
-    "fstop": "ƒ/5.6",
-    "shutter": "1/8",
-    "iso": 6400,
-    "flash": "Off",
-    "width": 6000,
-    "height": 4000,
-    "orientation": "landscape",
-    "highlight": "y",
-    "category": [
-      2
-    ]
-  },
-  {
-    "id": 64,
     "fullSizeUrl": "images/allison-grace.jpg",
     "thumbnailUrl": "/images/thumbnails/allison-grace.jpg",
     "location": "Rochester, NY",
@@ -1344,34 +1323,13 @@
     "width": 4000,
     "height": 6000,
     "orientation": "portrait",
-    "highlight": "y",
+    "highlight": "n",
     "category": [
       2
     ]
   },
   {
-    "id": 65,
-    "fullSizeUrl": "images/christine-deer.jpg",
-    "thumbnailUrl": "/images/thumbnails/christine-deer.jpg",
-    "location": "Rochester, NY",
-    "date": "Oct 30, 2026",
-    "caption": "",
-    "camera": "Canon EOS R50",
-    "lens": "RF-S18-45mm F4.5-6.3 IS STM",
-    "fstop": "ƒ/5.6",
-    "shutter": "1/13",
-    "iso": 6400,
-    "flash": "Off",
-    "width": 5471,
-    "height": 3647,
-    "orientation": "landscape",
-    "highlight": "y",
-    "category": [
-      2
-    ]
-  },
-  {
-    "id": 66,
+    "id": 64,
     "fullSizeUrl": "images/richie-linguine.jpg",
     "thumbnailUrl": "/images/thumbnails/richie-linguine.jpg",
     "location": "Rochester, NY",

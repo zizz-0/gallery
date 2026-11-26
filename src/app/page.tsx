@@ -25,7 +25,7 @@ export default function Home() {
             >
               <div className="flex items-center justify-between text-xs tracking-[0.16em]">
                 <span>0{index + 1}</span>
-                <span aria-hidden="true" className="text-lg transition-transform group-hover:translate-x-1">
+                <span aria-hidden="true" className="text-lg">
                   ↗︎
                 </span>
               </div>
