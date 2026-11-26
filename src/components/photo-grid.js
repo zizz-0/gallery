@@ -52,7 +52,7 @@ export default function PhotoGrid({ photos, initialCategory = "all" }) {
   // sort by date, location, category
   return (
     <div>
-      <div className="sticky top-[100px] z-40 border-b border-[#e7e7e4] bg-white/95 backdrop-blur">
+      <div className="top-[100px] z-40 border-b border-[#e7e7e4] bg-white/95 backdrop-blur">
         <div className="mx-auto flex max-w-[1600px] items-center gap-5 px-4 py-3 md:px-8">
           <label
             htmlFor="gallery-category"
