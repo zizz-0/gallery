@@ -220,7 +220,7 @@ export default function PhotoModal({ photo, onClose, onPrev, onNext }) {
                 aria-label="Toggle zoom cursor"
                 aria-pressed={isZoomCursorEnabled}
                 onClick={() => setIsZoomCursorEnabled((prev) => !prev)}
-                className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors ${isZoomCursorEnabled ? 'bg-[#6d8dc2]' : 'bg-gray-300'}`}
+                className={`relative inline-flex h-6 w-11 cursor-pointer items-center rounded-full transition-colors ${isZoomCursorEnabled ? 'bg-[#6d8dc2]' : 'bg-gray-300'}`}
               >
                 <span
                   className={`inline-block h-5 w-5 transform rounded-full bg-white transition-transform ${isZoomCursorEnabled ? 'translate-x-5' : 'translate-x-1'}`}
@@ -232,7 +232,7 @@ export default function PhotoModal({ photo, onClose, onPrev, onNext }) {
               <span>Zoom: </span>
               <select
                 id="zoom-select"
-                className="border border-gray-300 rounded px-3 py-1 text-md mr-2 text-gray-700 bg-white hidden sm:inline-block"
+                className="mr-2 hidden cursor-pointer rounded border border-gray-300 bg-white px-3 py-1 text-md text-gray-700 transition-colors hover:bg-gray-100 sm:inline-block"
                 value={zoom}
                 onChange={(e) => setZoom(Number(e.target.value))}
               >

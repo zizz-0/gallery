@@ -1,20 +1,18 @@
 export default function Cover() {
   return (
-    <div className="lg:h-[88vh] flex flex-col wrap justify-center items-center mt-[12vh]">
-        <div className="relative items-center justify-center w-[90vw] h-[65vh] md:h-[80vh] overflow-hidden z-0 sm:mt-5">
-            <img src="images/danger_sign.jpg" className="absolute inset-0 w-full h-full object-cover object-[40%_0%] md:object-[50%_35%] origin-[0%_100%] md:origin-[0%_100%] md:scale-120 top-10"/>
-
-            <div className="absolute inset-0 z-10 flex flex-col justify-between md:p-8 top-10 md:top-30">
-              <p className="p-4 w-[90vw] bg-[#000000]/30 md:bg-transparent text-center md:text-left text-[1.4em] md:text-2xl text-white [text-shadow:_-2px_2px_1px_#000000]" style={{fontFamily: 'Trebuchet MS, sans-serif'}}>
-                Rochester-based portrait & nature photographer
-              </p>
-
-              <div className="p-5 absolute inset-x-0 md:inset-auto top-[80%] md:top-[20%] flex w-full justify-center md:justify-normal md:items-center md:items-start gap-[5vw] md:gap-4">
-                <a href="/about-me" className="p-3 bg-white/90 text-gray-600 rounded text-lg md:text-xl w-36 text-center inline-block hover:bg-[#96ab93]" style={{fontFamily: 'Trebuchet MS, sans-serif'}}>About Me</a>
-                <a href="mailto: rizzo.zoej@gmail.com" className="p-3 bg-white/90 text-gray-600 rounded text-lg md:text-xl w-36 text-center inline-block hover:bg-[#96ab93]" style={{fontFamily: 'Trebuchet MS, sans-serif'}}>Contact me</a>
-              </div>
-            </div>
-        </div>
-    </div>
+    <section className="relative min-h-[100vh] w-full overflow-hidden">
+      <img
+        src="/secondary-images/IMG_8400.jpg"
+        alt=""
+        className="absolute inset-0 h-full w-full object-cover object-center"
+      />
+      <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/10 to-black/35" />
+      <p className="absolute bottom-10 left-6 z-10 max-w-3xl text-base font-light uppercase leading-tight tracking-[0.06em] text-white sm:bottom-14 sm:left-10 sm:text-lg md:left-16 md:text-2xl">
+        <span className="block whitespace-nowrap text-[2.36em]">Rochester, NY</span>
+        <span className="block whitespace-nowrap text-[0.96em]">
+          Portrait &amp; Nature Photographer
+        </span>
+      </p>
+    </section>
   );
 }

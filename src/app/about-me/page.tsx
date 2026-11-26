@@ -2,13 +2,12 @@ import AboutMe from '@/components/about-me';
 import Header from "@/components/header/header";
 
 export default function Home() {
-
   return (
-    <main className="bg-white">
-      <div className="fixed top-0 right-0 left-0 h-[12vh] bg-[#4f694a] gap-0 p-0 m-0 border-solid border-white border-y-3 flex items-center z-50">
-        <Header title="Zoe Rizzo Photography"/>
+    <main className="min-h-screen bg-white">
+      <div className="sticky top-0 z-50 flex min-h-[100px] items-center border-b border-neutral-200 bg-white">
+        <Header title="About Me!" light />
       </div>
-      <AboutMe/>
+      <AboutMe />
     </main>
   );
 }

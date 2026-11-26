@@ -1,92 +1,107 @@
 import Image from "next/image";
 
-export default function Header({title}) {
+function InstagramIcon() {
   return (
-    <div className="flex items-center justify-between py-8 relative z-50">
-      <nav>
-        <section className="MOBILE-MENU flex lg:hidden items-center">
-          <input
-            type="checkbox"
-            id="menu-toggle"
-            className="hidden peer"
-          />
+    <svg
+      aria-hidden="true"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.5"
+      className="h-6 w-6"
+    >
+      <rect x="3" y="3" width="18" height="18" rx="5" />
+      <circle cx="12" cy="12" r="4" />
+      <circle cx="17.5" cy="6.5" r="0.75" fill="currentColor" stroke="none" />
+    </svg>
+  );
+}
 
-          <div className="flex items-center w-[100vw]">
-            <h1 className="text-3xl p-5 pr-[70px]" style={{fontFamily: 'Trebuchet MS, sans-serif'}}>{title}</h1>
-            
-            <label htmlFor="menu-toggle" className="HAMBURGER-ICON space-y-2 cursor-pointer fixed top-9 right-4">
-              <span className="block h-0.5 w-8 bg-white"></span>
-              <span className="block h-0.5 w-8 bg-white"></span>
-              <span className="block h-0.5 w-8 bg-white"></span>
-            </label>
-          </div>
+function EmailIcon() {
+  return (
+    <svg
+      aria-hidden="true"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className="h-6 w-6"
+    >
+      <rect x="3" y="5" width="18" height="14" rx="1" />
+      <path d="m3 7 9 6 9-6" />
+    </svg>
+  );
+}
 
+export default function Header({ title, overlay = false, light = false }) {
+  return (
+    <header
+      className={`w-full px-4 py-5 sm:px-6 sm:py-6 md:px-8 ${
+        light ? "text-[#171717]" : "text-white"
+      } ${
+        overlay ? "absolute inset-x-0 top-0 z-30" : ""
+      }`}
+    >
+      <div className="mx-auto grid max-w-[1600px] grid-cols-2 items-center gap-x-3 gap-y-3 md:grid-cols-3 md:gap-x-8">
+        <nav
+          aria-label="Main navigation"
+          className="order-2 flex w-full items-center justify-evenly gap-4 text-xs uppercase tracking-[0.12em] sm:gap-6 sm:text-sm md:order-1"
+        >
+          <a className="transition-opacity hover:opacity-70" href="/">Home</a>
+          <a className="transition-opacity hover:opacity-70" href="/about-me">About</a>
+          <a className="transition-opacity hover:opacity-70" href="/gallery">Gallery</a>
+        </nav>
 
-          <div className="hidden peer-checked:flex fixed inset-0 bg-white">
-            <label
-              htmlFor="menu-toggle"
-              className="absolute top-8 right-8 cursor-pointer"
-            >
-              <svg
-                className="h-8 w-8 text-white"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <line x1="18" y1="6" x2="6" y2="18" />
-                <line x1="6" y1="6" x2="18" y2="18" />
-              </svg>
-            </label>
-
-            <ul className="flex flex-col pl-[5vw] justify-center w-[100vw] h-[100vh] bg-[#4f694a]">
-              <li className="text-2xl underline my-8 p-4 w-[70vw]">
-                <a href="/">Home</a>
-              </li>
-              <li className="text-2xl underline my-8 p-4 w-[70vw]">
-                <a href="/about-me">About Me</a>
-              </li>
-              <li className="text-2xl underline my-8 p-4 w-[70vw]">
-                <a href="/gallery">Gallery</a>
-              </li>
-              <li className="text-2xl underline my-8 p-4 w-[70vw]">
-                <a  href="https://www.instagram.com/zzizz.jpg/" target="_blank">Instagram</a>
-              </li>
-            </ul>
-          </div>
-        </section>
-
-        <div className="flex items-center w-[100vw] justify-between">
-          <div className="hidden lg:flex items-center ml-4">
-            <Image 
-                src="/icons/z-logo-cam-whitebg.png" 
-                alt="logo"
-                width={35}
-                height={35}
-                className="rounded-full object-cover aspect-square"
+        <div className="col-span-2 order-1 flex h-[100px] items-center justify-center md:col-span-1 md:order-2">
+          {title === "Zoe Rizzo Photography" ? (
+            <h1>
+              <Image
+                src={
+                  light
+                    ? "/icons/photography_black.png"
+                    : "/icons/photography_white.png"
+                }
+                alt={title}
+                width={3000}
+                height={1000}
+                priority
+                className="h-[100px] w-auto max-w-full"
               />
-            <h1 className="hidden text-3xl p-4 pr-[70px] lg:flex" style={{fontFamily: 'Trebuchet MS, sans-serif'}}>{title}</h1>
-          </div>
-          <ul className="DESKTOP-MENU hidden space-x-5 lg:flex mr-[20px] items-center">
-            <li>
-              <a href="/" className="mr-4 text-2xl underline" style={{fontFamily: 'Trebuchet MS, sans-serif'}}>Home</a>
-            </li>
-            <li>
-              <a href="/about-me" className="mr-4 text-2xl underline" style={{fontFamily: 'Trebuchet MS, sans-serif'}}>About Me</a>
-            </li>
-            <li>
-              <a href="/gallery" className="mr-4 mr-3 text-2xl underline" style={{fontFamily: 'Trebuchet MS, sans-serif'}}>Gallery</a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/zzizz.jpg/" target="_blank">
-                  <img src="/icons/instagram.png" width={30} height={30}/>
-              </a>
-            </li>
-          </ul>
+            </h1>
+          ) : (
+            <h1 className="text-center text-base font-light uppercase tracking-[0.12em] sm:text-lg md:text-2xl">
+              {title}
+            </h1>
+          )}
         </div>
-      </nav>
-    </div>
+
+        <div className="order-3 flex w-full items-center justify-end gap-4 text-xs uppercase tracking-[0.12em] sm:gap-6 sm:text-sm">
+          <nav aria-label="More navigation" className="flex flex-1 items-center justify-evenly">
+            <a className="transition-opacity hover:opacity-70" href="/testimonials">Testimonials</a>
+            <a className="transition-opacity hover:opacity-70" href="/inquiries">Inquiries</a>
+          </nav>
+          <div className="flex items-center gap-4 sm:gap-5">
+            <a
+              aria-label="Instagram"
+              className="transition-opacity hover:opacity-70"
+              href="https://www.instagram.com/zzizz.jpg/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <InstagramIcon />
+            </a>
+            <a
+              aria-label="Email"
+              className="transition-opacity hover:opacity-70"
+              href="mailto:rizzo.zoej@gmail.com"
+            >
+              <EmailIcon />
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
   );
 }

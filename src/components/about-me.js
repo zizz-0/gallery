@@ -1,40 +1,91 @@
-import Image from 'next/image';
+import Image from "next/image";
 
 export default function AboutMe() {
   return (
-    <div className="lg:h-[88vh] flex flex-col wrap justify-center items-center mt-[12vh]">
-        <div className="relative w-[90vw] h-[20vh] md:h-[80vh] overflow-hidden z-0 mt-5 sm:mt-5">
-            <img src="images/me.jpg" className="absolute inset-0 w-full h-full object-cover object-bottom md:object-[50%_70%] md:origin-[0%_100%] md:scale-120"></img>
-        </div>
-        <div className="sm:relative mb-[30px] mt-[20px] md:mt-0 md:absolute md:top-1/4 md:left-1/10 flex flex-col p-5 md:p-8 w-[90vw] md:w-[30vw] md:bg-[#40593D]/70 bg-[#374a34]/70 rounded relative z-10">
-            <p className="text-lg mb-2 md:text-xl text-white" style={{fontFamily: 'Trebuchet MS, sans-serif'}}>Hello, I'm Zoe!</p>
-            <p className="text-lg mb-2 md:text-xl text-white" style={{fontFamily: 'Trebuchet MS, sans-serif'}}>I am a portrait and nature photographer primarily based in Rochester, NY, although I am in northern NJ for parts of the year.</p>
-            <p className="text-lg mb-2 md:text-xl text-white" style={{fontFamily: 'Trebuchet MS, sans-serif'}}>I primarily do outdoor photoshoots with natural lighting, but I also love doing creative shoots that experiment with different types of lighting. Feel free to reach out over instagram or email if you are interested in working with me!</p>
-            <div className="flex gap-2 pt-4 items-center">
-              <Image
-                src={"icons/camera_white.png"}
-                alt={"camera symbol"}
-                width={35}
-                height={35}
-              />
-              <p className="text-lg md:text-xl text-white" style={{fontFamily: 'Trebuchet MS, sans-serif'}}>Canon EOS R50</p>
-            </div>
-            {/* green on hover for both */}
-            {/* see about replacing imgs with react icons */}
-            <div className="flex gap-4 pt-4 flex-row items-center justify-start mt-4">
-              <a href="https://www.instagram.com/zzizz.jpg/" target="_blank">
-                  <img src="icons/instagram.png" width={50} height={50}/>
-              </a>
-              {/* change this to mail icon */}
-              <a href="mailto: rizzo.zoej@gmail.com" className="p-3 px-8 bg-white/90 text-gray-600 rounded text-lg md:text-xl w-auto inline-block self-start" style={{fontFamily: 'Trebuchet MS, sans-serif'}}>Email</a>
-            </div>
-        </div>
-        {/* TODO:
-          *   add editing section - see https://www.morgandawson.com/
-          */}
-          <div>
-            
+    <section className="mx-auto grid min-h-[calc(100svh-100px)] w-full max-w-[1400px] grid-cols-1 items-stretch gap-8 px-5 py-10 sm:px-8 md:h-[80vh] md:min-h-0 md:grid-cols-[0.8fr_1.2fr] md:gap-12 md:px-12 md:py-0">
+      <div className="h-full bg-neutral-100 p-6 sm:p-10 md:p-12 sm:min-h-[520px] md:min-h-[60vh]">
+        <p className="mb-3 text-xs font-medium uppercase tracking-[0.16em] text-neutral-500">
+          About me
+        </p>
+        <h2 className="mb-6 text-3xl font-light text-neutral-900 sm:text-4xl">
+          Hello, I&apos;m Zoe!
+        </h2>
+        <p className="mb-4 text-[0.95rem] leading-relaxed text-neutral-700 sm:text-base">
+          I am a portrait and nature photographer primarily based in Rochester,
+          NY, although I am in northern NJ for parts of the year.
+        </p>
+        <p className="text-[0.95rem] leading-relaxed text-neutral-700 sm:text-base">
+          I primarily do outdoor photoshoots with natural lighting, but I also
+          love doing creative shoots that experiment with different types of
+          lighting. Feel free to reach out over Instagram or email if you are
+          interested in working with me!
+        </p>
+
+        <div className="mt-7 border-y border-neutral-300 py-5">
+          <p className="text-xs font-medium uppercase tracking-[0.14em] text-neutral-500">
+            Camera
+          </p>
+          <div className="mt-2 flex items-center gap-2 text-neutral-800">
+            <svg
+              aria-hidden="true"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="h-6 w-6 shrink-0"
+            >
+              <path d="M4 7h3l1.5-2h7L17 7h3a1 1 0 0 1 1 1v11H3V8a1 1 0 0 1 1-1Z" />
+              <circle cx="12" cy="13" r="3.5" />
+            </svg>
+            <p className="text-base">Canon EOS R50</p>
           </div>
-    </div>
+        </div>
+
+        <div className="mt-7 flex items-center gap-6">
+          <a
+            aria-label="Instagram"
+            className="group flex items-center gap-2 text-sm text-neutral-800 transition-colors hover:text-neutral-500"
+            href="https://www.instagram.com/zzizz.jpg/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Image
+              src="/icons/instagram_black.png"
+              alt=""
+              width={24}
+              height={24}
+              className="h-6 w-auto object-contain transition-opacity group-hover:opacity-50"
+            />
+            Instagram
+          </a>
+          <a
+            className="group flex items-center gap-2 text-sm text-neutral-800 transition-colors hover:text-neutral-500"
+            href="mailto:rizzo.zoej@gmail.com"
+          >
+            <Image
+              src="/icons/email.png"
+              alt=""
+              width={24}
+              height={24}
+              className="h-6 w-auto object-contain transition-opacity group-hover:opacity-50"
+            />
+            Email
+          </a>
+        </div>
+      </div>
+
+      <div className="flex h-full min-h-[420px] items-center justify-center sm:min-h-[520px] md:min-h-[60vh]">
+        <Image
+          src="/secondary-images/me1.JPG"
+          alt="Zoe outdoors with her camera"
+          width={659}
+          height={878}
+          sizes="(max-width: 768px) 100vw, 50vw"
+          className="h-full max-w-full w-auto object-contain"
+        />
+      </div>
+    </section>
   );
 }

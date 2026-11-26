@@ -22,8 +22,8 @@ export default async function CategoryGallery({
 
   return (
     <main className="">
-      <div className="fixed top-0 right-0 left-0 h-[12vh] bg-[#4f694a] gap-0 p-0 m-0 border-solid border-white border-y-3 flex items-center z-50">
-        <Header title="Photo Gallery"/>
+      <div className="sticky top-0 z-50 flex min-h-[100px] items-center border-b border-[#e7e7e4] bg-white">
+        <Header title="Photo Gallery" light />
       </div>
       <PhotoGrid photos={photos} initialCategory={String(category.id)} />
     </main>

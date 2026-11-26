@@ -52,25 +52,43 @@ export default function PhotoGrid({ photos, initialCategory = "all" }) {
   // sort by date, location, category
   return (
     <div>
-      <div className="flex pl-5 pt-4 pb-3 bg-white text-black sticky top-[12vh] z-30">
-        <label className="mr-2" style={{fontFamily: 'Trebuchet MS, sans-serif'}}>Filter Gallery:</label>
-        <select
-          value={selectedCategory}
-          onChange={(e) => handleCategoryChange(e.target.value)}
-          className="border rounded px-3 py-1 cursor-pointer hover:cursor-pointer"
-          style={{fontFamily: 'Trebuchet MS, sans-serif'}}
-        >
-          {/* <option value="all">Filter Gallery</option> */}
-          <option value="all">All</option>
-          {galleryCategories.map(({ id, label }) => (
-            <option key={id} value={id} className="hover:bg-gray-200 cursor-pointer hover:cursor-pointer">
-              {label}
-            </option>
-          ))}
-        </select>
+      <div className="sticky top-[100px] z-40 border-b border-[#e7e7e4] bg-white/95 backdrop-blur">
+        <div className="mx-auto flex max-w-[1600px] items-center gap-5 px-4 py-3 md:px-8">
+          <label
+            htmlFor="gallery-category"
+            className="text-xs font-medium uppercase tracking-[0.14em] text-neutral-500"
+          >
+            Filter by
+          </label>
+          <div className="relative">
+            <select
+              id="gallery-category"
+              value={selectedCategory}
+              onChange={(e) => handleCategoryChange(e.target.value)}
+              className="min-w-36 cursor-pointer appearance-none border-0 border-b border-neutral-400 bg-transparent py-2 pl-1 pr-7 text-sm text-neutral-900 hover:border-neutral-700 focus:border-neutral-900 focus:outline-none"
+            >
+              <option value="all">All photos</option>
+              {galleryCategories.map(({ id, label }) => (
+                <option key={id} value={id}>
+                  {label}
+                </option>
+              ))}
+            </select>
+            <svg
+              aria-hidden="true"
+              viewBox="0 0 16 16"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.5"
+              className="pointer-events-none absolute right-1 top-1/2 h-4 w-4 -translate-y-1/2"
+            >
+              <path d="m3 6 5 5 5-5" />
+            </svg>
+          </div>
+        </div>
       </div>
 
-      <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-0 relative z-0 mt-[12vh]">
+      <div className="relative z-0 grid grid-cols-3 gap-0 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
         {filteredPhotos.map((photo, index) => (
           <div
             key={photo.id}
@@ -82,7 +100,7 @@ export default function PhotoGrid({ photos, initialCategory = "all" }) {
               alt={photo.caption}
               fill
               sizes="(max-width: 640px) 100w, 300px"
-              className="rounded shadow border-solid border-2"
+              className="rounded shadow border-solid border-1"
             />
           </div>
         ))}
