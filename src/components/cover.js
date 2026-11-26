@@ -2,7 +2,7 @@ export default function Cover() {
   return (
     <section className="relative min-h-[100vh] w-full overflow-hidden">
       <img
-        src="/secondary-images/IMG_8400.jpg"
+        src="/secondary-images/IMG_8179.jpg"
         alt=""
         className="absolute inset-0 h-full w-full object-cover object-center"
       />
