@@ -63,7 +63,7 @@ export default function PhotoModal({ photo, onClose, onPrev, onNext }) {
 
   // TODO: next by arrowkeys
   return (
-    <div className="bg-white/70 fixed top-[10vh] left-0 right-0 bottom-0 flex items-center justify-center z-40">
+    <div className="fixed inset-0 z-40 flex h-[100dvh] w-screen items-center justify-center bg-white/50">
       <div className="overflow-y-auto bg-white p-4 rounded shadow-lg relative flex flex-row items-center justify-between gap-5 h-full w-full sm:h-9/10 sm:w-9/10">
 
         <button
@@ -211,7 +211,7 @@ export default function PhotoModal({ photo, onClose, onPrev, onNext }) {
           &#8250;
         </button>
 
-        <div className="absolute top-6 sm:top-1 right-4 flex items-start gap-8">
+        <div className="absolute top-8 right-4 flex items-start gap-8">
           <div className="flex flex-row items-start gap-8">
             <label className="hidden sm:flex items-center gap-2 text-gray-600 text-lg" style={{fontFamily: 'Trebuchet MS, sans-serif'}}>
               <span>Zoom cursor:</span>
